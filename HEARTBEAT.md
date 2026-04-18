@@ -1,82 +1,62 @@
 # HEARTBEAT.md - Free Clarín
 
-## Ejecutar diariamente a las 10:00 AM (Argentina)
+## Ejecutar diariamente a las 10:00 AM (Argentina / UTC-3)
 
-### Flujo completo
+---
 
-```python
-import subprocess
-import json
-from datetime import datetime
+## Lógica de 3 Capas (prioridad)
 
-# 1. Scrapear clarin.com
-print("=== Free Clarín: Iniciando scrap ===")
-result = subprocess.run(
-    ['curl', '-s', '--connect-timeout', '15', 'https://www.clarin.com/'],
-    capture_output=True, text=True
-)
-html = result.stdout
+### Capa 1: Archives existentes
+- **Fuente:** site/index.html + articulos/archivados.json
+- **Acción:** Usar directamente sin hacer ningún request a Wayback
+- Si el URL ya tiene archive en el sitio → skip completo
 
-# Extraer URLs de artículos
-import re
-urls = re.findall(r'"url":"(https://www\.clarin\.com/[^"]+)"', html)
-urls = list(set(urls))  # Deduplicar
-print(f"Artículos encontrados: {len(urls)}")
+### Capa 2: CDX API check
+- **Fuente:** archive.org/cdx/search/cdx?url=...&from=2026
+- **Acción:** Verificar si existe snapshot en 2026
+- Si existe → usar ese archive, no pedir nuevo
+- **Rate limit:** 1 segundo entre requests
 
-# 2. Verificar y archivar en archive.org con waybackpy
-archived = []
-pending = []
+### Capa 3: SavePageNow (último recurso)
+- **Fuente:** archive.org/save/<url>
+- **Acción:** Solo si NO hay archive en Capa 1 ni Capa 2
+- **Rate limit:** 5 segundos entre requests (límite ~15 req/min)
 
-for url in urls:
-    # Verificar si ya está archivado
-    check = subprocess.run(
-        ['curl', '-s', f'https://archive.org/wayback/available?url={url}'],
-        capture_output=True, text=True
-    )
-    data = json.loads(check.stdout)
-    
-    if data.get('archived_snapshots', {}).get('closest'):
-        archived_url = data['archived_snapshots']['closest']['url']
-        archived.append({'original': url, 'archived': archived_url})
-    else:
-        # Archivar con waybackpy
-        save_result = subprocess.run(
-            ['waybackpy', '-s', '-u', url],
-            capture_output=True, text=True
-        )
-        if 'Archive URL:' in save_result.stdout:
-            archived_url = save_result.stdout.split('Archive URL:')[1].strip()
-            archived.append({'original': url, 'archived': archived_url})
-        else:
-            pending.append(url)
-        import time
-        time.sleep(2)  # Rate limit
+---
 
-# 3. Recrear página tipo Clarín con enlaces archivados
-generate_site(archived)
+## Rate Limits según políticas de Wayback Machine
 
-# 4. Git push
-subprocess.run(['git', 'add', 'site/index.html'], cwd='/home/opc/.openclaw/workspace-freeclarin')
-subprocess.run(['git', 'commit', '-m', f'Update: {datetime.now().strftime("%Y-%m-%d %H:%M")}'], cwd='/home/opc/.openclaw/workspace-freeclarin')
-subprocess.run(['git', 'push', 'origin', 'main'], cwd='/home/opc/.openclaw/workspace-freeclarin')
+| API | Límite | Implementado |
+|-----|--------|--------------|
+| CDX API | ~8 req/seg | 1 req/seg ✅ |
+| SavePageNow | ~15 req/min | 5 seg entre req ✅ |
 
-# 5. Reportar
-print(f"""
-=== Free Clarín: Completado ===
-Artículos archivados: {len(archived)}
-Pendientes: {len(pending)}
-Sitio: https://rodrigolopezguerra.github.io/News-test/
-""")
-```
+**IMPORTANTE:** 
+- 1.5 segundos para SavePageNow es DEMASIADO RÁPIDO y causa HTTP 429
+- Mínimo 4 segundos, usar 5 segundos para seguridad
 
-### Logging
+---
 
-Guardar en `memory/YYYY-MM-DD.md`:
-- Artículos encontrados, archivados, fallidos
+## Flujo completo
+
+1. Scrape: obtener URLs de clarin.com
+2. Archivo: python3 archive_robust.py (3 capas)
+3. Generar sitio: site/index.html
+4. Git push a origin main
+
+---
+
+## Logging
+
+Guardar en memory/YYYY-MM-DD.md:
+- URLs encontradas, archivadas, fallidas
+- De cuál capa vino cada archive
 - Errores si los hay
 
-## IMPORTANTE
+---
 
-- **NO usar archive.is** — bloqueado en Oracle Cloud
-- **USAR waybackpy** — archiva en archive.org
-- Respetar delays de 2 segundos entre archivos para no saturar la API
+## Notas
+
+- archive.is = BLOQUEADO en Oracle Cloud
+- archive.org = FUNCIONA (CDX + SavePageNow)
+- Si HTTP 429 → esperar más, no reintentar inmediatamente
