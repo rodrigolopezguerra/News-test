@@ -1,220 +1,62 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Clarín - Archivo Alternativo</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Roboto', Arial, sans-serif; background: #f5f5f5; color: #333; }
-        header { background: linear-gradient(135deg, #e53935 0%, #c62828 100%); color: white; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
-        header h1 { font-size: 2em; font-weight: 700; letter-spacing: -1px; }
-        header .subtitle { opacity: 0.9; margin-top: 5px; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-        .stats { background: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; gap: 30px; flex-wrap: wrap; }
-        .stat-item { text-align: center; }
-        .stat-number { font-size: 2.5em; font-weight: 700; color: #e53935; }
-        .stat-label { color: #666; font-size: 0.9em; }
-        .section-title { font-size: 1.5em; margin: 30px 0 15px; color: #333; border-left: 4px solid #e53935; padding-left: 15px; }
-        .articles-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; }
-        .article-card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); transition: transform 0.2s; }
-        .article-card:hover { transform: translateY(-5px); }
-        .article-header { background: #333; color: white; padding: 10px 15px; font-size: 0.85em; font-weight: 700; text-transform: uppercase; }
-        .article-body { padding: 15px; }
-        .article-title { font-size: 1.1em; font-weight: 600; margin-bottom: 10px; line-height: 1.4; }
-        .article-link { display: inline-block; background: #e53935; color: white; text-decoration: none; padding: 10px 20px; border-radius: 5px; font-weight: 600; transition: background 0.2s; }
-        .article-link:hover { background: #c62828; }
-        .badge { display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600; margin-left: 10px; }
-        .badge-archived { background: #4caf50; color: white; }
-        .badge-pending { background: #ff9800; color: white; }
-        .badge-error { background: #f44336; color: white; }
-        .footer { text-align: center; padding: 30px; color: #666; font-size: 0.9em; }
-        .footer a { color: #e53935; text-decoration: none; }
-    </style>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
+<title>Free Clarín - Archivo Alternativo</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+h1 { color: #e53935; border-bottom: 2px solid #e53935; padding-bottom: 10px; }
+.section-title { font-size: 1.3em; margin: 30px 0 15px; color: #333; border-left: 4px solid #e53935; padding-left: 10px; }
+.article { background: white; border-radius: 8px; padding: 15px; margin: 10px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.article-title { font-size: 1.05em; font-weight: 600; margin-bottom: 8px; line-height: 1.4; }
+.badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; }
+.badge-archived { background: #4caf50; color: white; }
+.badge-pending { background: #ff9800; color: white; }
+.article-link { display: inline-block; padding: 5px 12px; background: #e53935; color: white; text-decoration: none; border-radius: 4px; font-size: 0.85em; }
+.article-link:hover { background: #c62828; }
+.article-meta { font-size: 0.75em; color: #999; margin-top: 5px; }
+.footer { text-align: center; margin-top: 40px; color: #999; font-size: 0.8em; }
+</style>
 </head>
 <body>
-    <header>
-        <h1>📰 Free Clarín</h1>
-        <div class="subtitle">Archivo alternativo de noticias de Clarín.com - Última actualización: 2026-04-18</div>
-    </header>
-    
-    <div class="container">
-        <div class="stats">
-            <div class="stat-item">
-                <div class="stat-number">130</div>
-                <div class="stat-label">Artículos detectados</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number">8</div>
-                <div class="stat-label">✅ Archivados</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number">10</div>
-                <div class="stat-label">⏳ Pendientes</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number">2</div>
-                <div class="stat-label">❌ Errores</div>
-            </div>
-        </div>
-        
-        <h2 class="section-title">✅ Archivados - Disponibles ahora</h2>
-        <div class="articles-grid">
-            <div class="article-card">
-                <div class="article-header">Arq / Inmobiliario</div>
-                <div class="article-body">
-                    <div class="article-title">Comprar pozo: las tendencias del mercado inmobiliario</div>
-                    <a href="https://web.archive.org/web/20260418/https://www.clarin.com/arq/inmobiliario/comprar-pozo-tendencias-mercado-inmobiliario_0_CjDxWxzJE7.html" target="_blank" class="article-link">📦 Ver Archivo</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Astrología</div>
-                <div class="article-body">
-                    <div class="article-title">Zona íntima: qué dice la carta natal sobre tu casa 4</div>
-                    <a href="https://web.archive.org/web/20260418/https://www.clarin.com/astrologia/zona-intima-carta-natal-dice-casa-4-historia-emocional_0_FgJedBhpgS.html" target="_blank" class="article-link">📦 Ver Archivo</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Brandstudio</div>
-                <div class="article-body">
-                    <div class="article-title">Música: disfrutar los fines de semana en la Usina del Arte</div>
-                    <a href="https://web.archive.org/web/20260418/https://www.clarin.com/brandstudio/musica-disfrutar-fines-semana-usina-arte_0_XAwfnDM4T5.html" target="_blank" class="article-link">📦 Ver Archivo</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Brandstudio</div>
-                <div class="article-body">
-                    <div class="article-title">Presbicia: el tratamiento de esta afección que aparece después de los 40</div>
-                    <a href="https://web.archive.org/web/20260418/https://www.clarin.com/brandstudio/presbicia-trata-hoy-afeccion-aparece-despues-40_0_QI6r1hce1P.html" target="_blank" class="article-link">📦 Ver Archivo</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Brandstudio</div>
-                <div class="article-body">
-                    <div class="article-title">YPF presenta Conexión YPF: la primera experiencia que mide YPF tiene para vos</div>
-                    <a href="https://web.archive.org/web/20260418/https://www.clarin.com/brandstudio/ypf-presenta-conexion-ypf-primera-experiencia-mide-ypf-tenes-vida_0_gacfcMDP19.html" target="_blank" class="article-link">📦 Ver Archivo</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Buena Vida</div>
-                <div class="article-body">
-                    <div class="article-title">Microbiota: para qué sirven las bacterias que viven dentro del cuerpo</div>
-                    <a href="https://web.archive.org/web/20260418/https://www.clarin.com/buena-vida/microbiota-sirven-bacterias-viven-dentro-cuerpo_0_xOSwhfjqtr.html" target="_blank" class="article-link">📦 Ver Archivo</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Ciudades</div>
-                <div class="article-body">
-                    <div class="article-title">Calle fantasma: el pasaje Lanín festeja sus 25 años</div>
-                    <a href="https://web.archive.org/web/20260418/https://www.clarin.com/ciudades/calle-fantasma-paseo-arte-pasaje-lanin-festeja-25-anos_0_hTVn5TwOFZ.html" target="_blank" class="article-link">📦 Ver Archivo</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Ciudades</div>
-                <div class="article-body">
-                    <div class="article-title">Steak tartare: el plato de carne cruda que puso de moda los restaurantes porteños</div>
-                    <a href="https://web.archive.org/web/20260418/https://www.clarin.com/ciudades/steak-tartare-plato-carne-cruda-puso-moda-restaurantes-portenos_0_01pcg1YRiJ.html" target="_blank" class="article-link">📦 Ver Archivo</a>
-                </div>
-            </div>
-        </div>
-        
-        <h2 class="section-title">⏳ Pendientes - En cola de archivado</h2>
-        <div class="articles-grid">
-            <div class="article-card">
-                <div class="article-header">Brandstudio</div>
-                <div class="article-body">
-                    <div class="article-title">Stellantis refuerza recall de airbags Takata: modelos afectados <span class="badge badge-pending">⏳ Pendiente</span></div>
-                    <a href="https://www.clarin.com/brandstudio/stellantis-refuerza-recall-airbags-takata-modelos-afectados_0_BJjNaJ2pp9.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Deportes</div>
-                <div class="article-body">
-                    <div class="article-title">España 1982: Maradona quería hablar en la final y se calló <span class="badge badge-pending">⏳ Pendiente</span></div>
-                    <a href="https://www.clarin.com/deportes/espana-1982-maradona-queria-hablar-final-callo_0_LcBm4LfFoI.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Deportes</div>
-                <div class="article-body">
-                    <div class="article-title">Flag Football: el nuevo deporte olímpico que debuta en los Suramericanos de Juventud Panamá 2026 <span class="badge badge-pending">⏳ Pendiente</span></div>
-                    <a href="https://www.clarin.com/deportes/flag-football-nuevo-deporte-olimpico-debuta-suramericanos-juventud-panama-2026-formo-seleccion-argentina-componen_0_D9iVnFZDbh.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Deportes</div>
-                <div class="article-body">
-                    <div class="article-title">Insólita secuencia en Copa Sudamericana: argentino pegó patadas en la misma jugada <span class="badge badge-pending">⏳ Pendiente</span></div>
-                    <a href="https://www.clarin.com/deportes/insolita-secuencia-copa-sudamericana-argentino-pego-patadas-misma-jugada-sacaron-amarillas-expulsado_0_JlzaNCb5eT.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Deportes</div>
-                <div class="article-body">
-                    <div class="article-title">Marcos Rojo habló tras su expulsión en River: pidió perdón a Racing <span class="badge badge-pending">⏳ Pendiente</span></div>
-                    <a href="https://www.clarin.com/deportes/marcos-rojo-hablo-expulsion-river-pidio-perdon-racing-quejo-equivoco-piden-cabeza_0_JjvpaWwIva.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Deportes</div>
-                <div class="article-body">
-                    <div class="article-title">Martín Demichelis enamora en España: la revolución de Mallorca <span class="badge badge-pending">⏳ Pendiente</span></div>
-                    <a href="https://www.clarin.com/deportes/martin-demichelis-enamora-espana-revolucion-mallorca-equipo-autor-pocas-fechas-salio-descenso_0_xcpTO1nrQr.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Deportes</div>
-                <div class="article-body">
-                    <div class="article-title">Mateo Retegui: se quedará sin Mundial por Italia por fractura de tibia <span class="badge badge-pending">⏳ Pendiente</span></div>
-                    <a href="https://www.clarin.com/deportes/mateo-retegui-quedarse-mundial-italia-fractura-tibia-arabia-saudita-saca-torneo_0_OCLdwBDEkK.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Deportes</div>
-                <div class="article-body">
-                    <div class="article-title">Nico Paz metió un golazo de cabeza <span class="badge badge-pending">⏳ Pendiente</span></div>
-                    <a href="https://www.clarin.com/deportes/nico-paz-metio-golazo-cabeza-pocas-veces-visto-perdio-complico-serie_0_ajRZqFfB61.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Deportes</div>
-                <div class="article-body">
-                    <div class="article-title">Potro: duro al aceptar que el cuerpo lo acompañaba en la despedida de Djokovic <span class="badge badge-pending">⏳ Pendiente</span></div>
-                    <a href="https://www.clarin.com/deportes/potro-mano-mano-clarin-duro-aceptar-cuerpo-acompanaba-despedida-djokovic-dio-paz_0_1DJgcyWk4R.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Deportes</div>
-                <div class="article-body">
-                    <div class="article-title">Renunció Mascherano y sigue haciendo ruido en Inter Miami <span class="badge badge-pending">⏳ Pendiente</span></div>
-                    <a href="https://www.clarin.com/deportes/renuncia-mascherano-sigue-haciendo-ruido-inter-miami-discusion-sello-final-habla-atmosfera-intensa-messi_0_JH8ZztJ5rV.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-        </div>
-        
-        <h2 class="section-title">❌ Errores</h2>
-        <div class="articles-grid">
-            <div class="article-card">
-                <div class="article-header">Economía</div>
-                <div class="article-body">
-                    <div class="article-title">Ajuste fiscal: el Gobierno volvió a tener superávit en marzo <span class="badge badge-error">❌ Error</span></div>
-                    <a href="https://www.clarin.com/economia/ajuste-fiscal-gobierno-volvio-tener-superavit-marzo-consiguio-tercio-meta-renegociada-fmi_0_RDhln36Z3U.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-            <div class="article-card">
-                <div class="article-header">Deportes</div>
-                <div class="article-body">
-                    <div class="article-title">Insólita secuencia en Copa Sudamericana (HTTP 520) <span class="badge badge-error">❌ Error</span></div>
-                    <a href="https://www.clarin.com/deportes/insolita-secuencia-copa-sudamericana-argentino-pego-patadas-misma-jugada-sacaron-amarillas-expulsado_0_JlzaNCb5eT.html" target="_blank" class="article-link">🔗 Original</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <footer class="footer">
-        <p>📦 Free Clarín - Archivo alternativo generado automáticamente</p>
-        <p>💡 Los artículos archivados están disponibles en <a href="https://web.archive.org" target="_blank">archive.org</a></p>
-        <p>🔗 Sitio original: <a href="https://www.clarin.com" target="_blank">clarin.com</a></p>
-    </footer>
-</body>
-</html>
+<h1>📰 Free Clarín</h1>
+<div style="opacity:0.8">Archivo alternativo de noticias de Clarín.com</div>
+<p style="margin-top:15px"><b>Total artículos archivados: 8</b> — 2026-04-18 16:48 UTC</p><h2 class="section-title">✅ Archivados - Disponibles ahora</h2><div class="article">
+<div class="article-title">comprar-pozo-tendencias-mercado-inmobiliario - CjDxWxzJE7</div>
+<a href="https://web.archive.org/web/20260418/https://www.clarin.com/arq/inmobiliario/comprar-pozo-tendencias-mercado-inmobiliario_0_CjDxWxzJE7.html" target="_blank" class="article-link">📦 Ver Archivo</a>
+<div class="article-meta">Archivado: 2026-04-18</div>
+</div><div class="article">
+<div class="article-title">zona-intima-carta-natal-dice-casa-4-historia-emocional - FgJedBhpgS</div>
+<a href="https://web.archive.org/web/20260418/https://www.clarin.com/astrologia/zona-intima-carta-natal-dice-casa-4-historia-emocional_0_FgJedBhpgS.html" target="_blank" class="article-link">📦 Ver Archivo</a>
+<div class="article-meta">Archivado: 2026-04-18</div>
+</div><div class="article">
+<div class="article-title">musica-disfrutar-fines-semana-usina-arte - XAwfnDM4T5</div>
+<a href="https://web.archive.org/web/20260418/https://www.clarin.com/brandstudio/musica-disfrutar-fines-semana-usina-arte_0_XAwfnDM4T5.html" target="_blank" class="article-link">📦 Ver Archivo</a>
+<div class="article-meta">Archivado: 2026-04-18</div>
+</div><div class="article">
+<div class="article-title">presbicia-trata-hoy-afeccion-aparece-despues-40 - QI6r1hce1P</div>
+<a href="https://web.archive.org/web/20260418/https://www.clarin.com/brandstudio/presbicia-trata-hoy-afeccion-aparece-despues-40_0_QI6r1hce1P.html" target="_blank" class="article-link">📦 Ver Archivo</a>
+<div class="article-meta">Archivado: 2026-04-18</div>
+</div><div class="article">
+<div class="article-title">ypf-presenta-conexion-ypf-primera-experiencia-mide-ypf-tenes-vida - gacfcMDP19</div>
+<a href="https://web.archive.org/web/20260418/https://www.clarin.com/brandstudio/ypf-presenta-conexion-ypf-primera-experiencia-mide-ypf-tenes-vida_0_gacfcMDP19.html" target="_blank" class="article-link">📦 Ver Archivo</a>
+<div class="article-meta">Archivado: 2026-04-18</div>
+</div><div class="article">
+<div class="article-title">microbiota-sirven-bacterias-viven-dentro-cuerpo - xOSwhfjqtr</div>
+<a href="https://web.archive.org/web/20260418/https://www.clarin.com/buena-vida/microbiota-sirven-bacterias-viven-dentro-cuerpo_0_xOSwhfjqtr.html" target="_blank" class="article-link">📦 Ver Archivo</a>
+<div class="article-meta">Archivado: 2026-04-18</div>
+</div><div class="article">
+<div class="article-title">calle-fantasma-paseo-arte-pasaje-lanin-festeja-25-anos - hTVn5TwOFZ</div>
+<a href="https://web.archive.org/web/20260418/https://www.clarin.com/ciudades/calle-fantasma-paseo-arte-pasaje-lanin-festeja-25-anos_0_hTVn5TwOFZ.html" target="_blank" class="article-link">📦 Ver Archivo</a>
+<div class="article-meta">Archivado: 2026-04-18</div>
+</div><div class="article">
+<div class="article-title">steak-tartare-plato-carne-cruda-puso-moda-restaurantes-portenos - 01pcg1YRiJ</div>
+<a href="https://web.archive.org/web/20260418/https://www.clarin.com/ciudades/steak-tartare-plato-carne-cruda-puso-moda-restaurantes-portenos_0_01pcg1YRiJ.html" target="_blank" class="article-link">📦 Ver Archivo</a>
+<div class="article-meta">Archivado: 2026-04-18</div>
+</div>
+<div class="footer">
+<p>⚠️ Este archivo es solo para uso personal/educativo. El contenido pertenece a Clarín.</p>
+<p>Generado automáticamente por Free Clarín Bot</p>
+</div>
+</body></html>

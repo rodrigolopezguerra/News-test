@@ -2,25 +2,125 @@
   "timestamp": "2026-04-18T13:46:00Z",
   "processed": 20,
   "results": [
-    {"original_url": "https://www.clarin.com/arq/inmobiliario/comprar-pozo-tendencias-mercado-inmobiliario_0_CjDxWxzJE7.html", "wayback_url": "https://web.archive.org/web/20260418/https://www.clarin.com/arq/inmobiliario/comprar-pozo-tendencias-mercado-inmobiliario_0_CjDxWxzJE7.html", "status": "archived", "http_status": 200},
-    {"original_url": "https://www.clarin.com/astrologia/zona-intima-carta-natal-dice-casa-4-historia-emocional_0_FgJedBhpgS.html", "wayback_url": "https://web.archive.org/web/20260418/https://www.clarin.com/astrologia/zona-intima-carta-natal-dice-casa-4-historia-emocional_0_FgJedBhpgS.html", "status": "archived", "http_status": 200},
-    {"original_url": "https://www.clarin.com/brandstudio/musica-disfrutar-fines-semana-usina-arte_0_XAwfnDM4T5.html", "wayback_url": "https://web.archive.org/web/20260418/https://www.clarin.com/brandstudio/musica-disfrutar-fines-semana-usina-arte_0_XAwfnDM4T5.html", "status": "archived", "http_status": 200},
-    {"original_url": "https://www.clarin.com/brandstudio/presbicia-trata-hoy-afeccion-aparece-despues-40_0_QI6r1hce1P.html", "wayback_url": "https://web.archive.org/web/20260418/https://www.clarin.com/brandstudio/presbicia-trata-hoy-afeccion-aparece-despues-40_0_QI6r1hce1P.html", "status": "archived", "http_status": 200},
-    {"original_url": "https://www.clarin.com/brandstudio/stellantis-refuerza-recall-airbags-takata-modelos-afectados_0_BJjNaJ2pp9.html", "wayback_url": "https://web.archive.org/web/20260418/https://www.clarin.com/brandstudio/stellantis-refuerza-recall-airbags-takata-modelos-afectados_0_BJjNaJ2pp9.html", "status": "rate_limited", "http_status": 429},
-    {"original_url": "https://www.clarin.com/brandstudio/ypf-presenta-conexion-ypf-primera-experiencia-mide-ypf-tenes-vida_0_gacfcMDP19.html", "wayback_url": "https://web.archive.org/web/20260418/https://www.clarin.com/brandstudio/ypf-presenta-conexion-ypf-primera-experiencia-mide-ypf-tenes-vida_0_gacfcMDP19.html", "status": "archived", "http_status": 200},
-    {"original_url": "https://www.clarin.com/buena-vida/microbiota-sirven-bacterias-viven-dentro-cuerpo_0_xOSwhfjqtr.html", "wayback_url": "https://web.archive.org/web/20260418/https://www.clarin.com/buena-vida/microbiota-sirven-bacterias-viven-dentro-cuerpo_0_xOSwhfjqtr.html", "status": "archived", "http_status": 200},
-    {"original_url": "https://www.clarin.com/ciudades/calle-fantasma-paseo-arte-pasaje-lanin-festeja-25-anos_0_hTVn5TwOFZ.html", "wayback_url": "https://web.archive.org/web/20260418/https://www.clarin.com/ciudades/calle-fantasma-paseo-arte-pasaje-lanin-festeja-25-anos_0_hTVn5TwOFZ.html", "status": "archived", "http_status": 200},
-    {"original_url": "https://www.clarin.com/ciudades/steak-tartare-plato-carne-cruda-puso-moda-restaurantes-portenos_0_01pcg1YRiJ.html", "wayback_url": "https://web.archive.org/web/20260418/https://www.clarin.com/ciudades/steak-tartare-plato-carne-cruda-puso-moda-restaurantes-portenos_0_01pcg1YRiJ.html", "status": "archived", "http_status": 200},
-    {"original_url": "https://www.clarin.com/deportes/espana-1982-maradona-queria-hablar-final-callo_0_LcBm4LfFoI.html", "wayback_url": "https://web.archive.org/web/20260418/https://www.clarin.com/deportes/espana-1982-maradona-queria-hablar-final-callo_0_LcBm4LfFoI.html", "status": "rate_limited", "http_status": 429},
-    {"original_url": "https://www.clarin.com/deportes/flag-football-nuevo-deporte-olimpico-debuta-suramericanos-juventud-panama-2026-formo-seleccion-argentina-componen_0_D9iVnFZDbh.html", "wayback_url": null, "status": "rate_limited", "http_status": 429},
-    {"original_url": "https://www.clarin.com/deportes/insolita-secuencia-copa-sudamericana-argentino-pego-patadas-misma-jugada-sacaron-amarillas-expulsado_0_JlzaNCb5eT.html", "wayback_url": null, "status": "error", "http_status": 520},
-    {"original_url": "https://www.clarin.com/deportes/marcos-rojo-hablo-expulsion-river-pidio-perdon-racing-quejo-equivoco-piden-cabeza_0_JjvpaWwIva.html", "wayback_url": null, "status": "rate_limited", "http_status": 429},
-    {"original_url": "https://www.clarin.com/deportes/martin-demichelis-enamora-espana-revolucion-mallorca-equipo-autor-pocas-fechas-salio-descenso_0_xcpTO1nrQr.html", "wayback_url": null, "status": "rate_limited", "http_status": 429},
-    {"original_url": "https://www.clarin.com/deportes/mateo-retegui-quedarse-mundial-italia-fractura-tibia-arabia-saudita-saca-torneo_0_OCLdwBDEkK.html", "wayback_url": null, "status": "rate_limited", "http_status": 429},
-    {"original_url": "https://www.clarin.com/deportes/nico-paz-metio-golazo-cabeza-pocas-veces-visto-perdio-complico-serie_0_ajRZqFfB61.html", "wayback_url": null, "status": "rate_limited", "http_status": 429},
-    {"original_url": "https://www.clarin.com/deportes/potro-mano-mano-clarin-duro-aceptar-cuerpo-acompanaba-despedida-djokovic-dio-paz_0_1DJgcyWk4R.html", "wayback_url": null, "status": "timeout", "http_status": 0},
-    {"original_url": "https://www.clarin.com/deportes/renuncia-mascherano-sigue-haciendo-ruido-inter-miami-discusion-sello-final-habla-atmosfera-intensa-messi_0_JH8ZztJ5rV.html", "wayback_url": null, "status": "timeout", "http_status": 0},
-    {"original_url": "https://www.clarin.com/economia/ajuste-fiscal-gobierno-volvio-tener-superavit-marzo-consiguio-tercio-meta-renegociada-fmi_0_RDhln36Z3U.html", "wayback_url": null, "status": "rate_limited", "http_status": 429},
-    {"original_url": "https://www.clarin.com/economia/fmi-dijo-razones-aumento-inflacion-marzo-estimo-precios-desaceleraran-proximos-meses_0_szRQhX3Sah.html", "wayback_url": null, "status": "timeout", "http_status": 0}
+    {
+      "original_url": "https://www.clarin.com/arq/inmobiliario/comprar-pozo-tendencias-mercado-inmobiliario_0_CjDxWxzJE7.html",
+      "wayback_url": "https://web.archive.org/web/20260418135235/https://www.clarin.com/arq/inmobiliario/comprar-pozo-tendencias-mercado-inmobiliario_0_CjDxWxzJE7.html",
+      "status": "archived",
+      "raw_output": "Archive URL:\nhttps://web.archive.org/web/20260418135235/https://www.clarin.com/arq/inmobiliario/comprar-pozo-tendencias-mercado-inmobiliario_0_CjDxWxzJE7.html\nCached save:\nFalse\n"
+    },
+    {
+      "original_url": "https://www.clarin.com/astrologia/zona-intima-carta-natal-dice-casa-4-historia-emocional_0_FgJedBhpgS.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/astrologia/zona-intima-carta-natal-dice-casa-4-historia-emocional_0_FgJedBhpgS.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/brandstudio/musica-disfrutar-fines-semana-usina-arte_0_XAwfnDM4T5.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/brandstudio/musica-disfrutar-fines-semana-usina-arte_0_XAwfnDM4T5.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/brandstudio/presbicia-trata-hoy-afeccion-aparece-despues-40_0_QI6r1hce1P.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/brandstudio/presbicia-trata-hoy-afeccion-aparece-despues-40_0_QI6r1hce1P.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/brandstudio/stellantis-refuerza-recall-airbags-takata-modelos-afectados_0_BJjNaJ2pp9.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/brandstudio/stellantis-refuerza-recall-airbags-takata-modelos-afectados_0_BJjNaJ2pp9.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/brandstudio/ypf-presenta-conexion-ypf-primera-experiencia-mide-ypf-tenes-vida_0_gacfcMDP19.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/brandstudio/ypf-presenta-conexion-ypf-primera-experiencia-mide-ypf-tenes-vida_0_gacfcMDP19.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/buena-vida/microbiota-sirven-bacterias-viven-dentro-cuerpo_0_xOSwhfjqtr.html",
+      "wayback_url": "https://web.archive.org/web/20260418135828/https://www.clarin.com/suscripciones/contenido-exclusivo.html?apw-origin=https%3A%2F%2Fwww.clarin.com%2Fbuena-vida%2Fmicrobiota-sirven-bacterias-viven-dentro-cuerpo_0_xOSwhfjqtr.html&wb=ZONDA_PW_HARDPW_AN",
+      "status": "archived",
+      "raw_output": "Archive URL:\nhttps://web.archive.org/web/20260418135828/https://www.clarin.com/suscripciones/contenido-exclusivo.html?apw-origin=https%3A%2F%2Fwww.clarin.com%2Fbuena-vida%2Fmicrobiota-sirven-bacterias-viven-dentro-cuerpo_0_xOSwhfjqtr.html&wb=ZONDA_PW_HARDPW_AN\nCached save:\nFalse\n"
+    },
+    {
+      "original_url": "https://www.clarin.com/ciudades/calle-fantasma-paseo-arte-pasaje-lanin-festeja-25-anos_0_hTVn5TwOFZ.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/ciudades/calle-fantasma-paseo-arte-pasaje-lanin-festeja-25-anos_0_hTVn5TwOFZ.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/ciudades/steak-tartare-plato-carne-cruda-puso-moda-restaurantes-portenos_0_01pcg1YRiJ.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/ciudades/steak-tartare-plato-carne-cruda-puso-moda-restaurantes-portenos_0_01pcg1YRiJ.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/deportes/espana-1982-maradona-queria-hablar-final-callo_0_LcBm4LfFoI.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/deportes/espana-1982-maradona-queria-hablar-final-callo_0_LcBm4LfFoI.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/deportes/flag-football-nuevo-deporte-olimpico-debuta-suramericanos-juventud-panama-2026-formo-seleccion-argentina-componen_0_D9iVnFZDbh.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/deportes/flag-football-nuevo-deporte-olimpico-debuta-suramericanos-juventud-panama-2026-formo-seleccion-argentina-componen_0_D9iVnFZDbh.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/deportes/insolita-secuencia-copa-sudamericana-argentino-pego-patadas-misma-jugada-sacaron-amarillas-expulsado_0_JlzaNCb5eT.html",
+      "wayback_url": null,
+      "status": "failed",
+      "raw_output": "Traceback (most recent call last):\n  File \"/home/opc/.local/bin/waybackpy\", line 6, in <module>\n    sys.exit(main())\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params"
+    },
+    {
+      "original_url": "https://www.clarin.com/deportes/marcos-rojo-hablo-expulsion-river-pidio-perdon-racing-quejo-equivoco-piden-cabeza_0_JjvpaWwIva.html",
+      "wayback_url": null,
+      "status": "failed",
+      "raw_output": "Traceback (most recent call last):\n  File \"/home/opc/.local/bin/waybackpy\", line 6, in <module>\n    sys.exit(main())\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params"
+    },
+    {
+      "original_url": "https://www.clarin.com/deportes/martin-demichelis-enamora-espana-revolucion-mallorca-equipo-autor-pocas-fechas-salio-descenso_0_xcpTO1nrQr.html",
+      "wayback_url": null,
+      "status": "failed",
+      "raw_output": "Traceback (most recent call last):\n  File \"/home/opc/.local/bin/waybackpy\", line 6, in <module>\n    sys.exit(main())\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params"
+    },
+    {
+      "original_url": "https://www.clarin.com/deportes/mateo-retegui-quedarse-mundial-italia-fractura-tibia-arabia-saudita-saca-torneo_0_OCLdwBDEkK.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/deportes/mateo-retegui-quedarse-mundial-italia-fractura-tibia-arabia-saudita-saca-torneo_0_OCLdwBDEkK.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/deportes/nico-paz-metio-golazo-cabeza-pocas-veces-visto-perdio-complico-serie_0_ajRZqFfB61.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/deportes/nico-paz-metio-golazo-cabeza-pocas-veces-visto-perdio-complico-serie_0_ajRZqFfB61.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/deportes/potro-mano-mano-clarin-duro-aceptar-cuerpo-acompanaba-despedida-djokovic-dio-paz_0_1DJgcyWk4R.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/deportes/potro-mano-mano-clarin-duro-aceptar-cuerpo-acompanaba-despedida-djokovic-dio-paz_0_1DJgcyWk4R.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/deportes/renuncia-mascherano-sigue-haciendo-ruido-inter-miami-discusion-sello-final-habla-atmosfera-intensa-messi_0_JH8ZztJ5rV.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/deportes/renuncia-mascherano-sigue-haciendo-ruido-inter-miami-discusion-sello-final-habla-atmosfera-intensa-messi_0_JH8ZztJ5rV.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/economia/ajuste-fiscal-gobierno-volvio-tener-superavit-marzo-consiguio-tercio-meta-renegociada-fmi_0_RDhln36Z3U.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/economia/ajuste-fiscal-gobierno-volvio-tener-superavit-marzo-consiguio-tercio-meta-renegociada-fmi_0_RDhln36Z3U.html']' timed out after 60 seconds"
+    },
+    {
+      "original_url": "https://www.clarin.com/economia/fmi-dijo-razones-aumento-inflacion-marzo-estimo-precios-desaceleraran-proximos-meses_0_szRQhX3Sah.html",
+      "wayback_url": null,
+      "status": "error",
+      "error": "Command '['waybackpy', '-s', '-u', 'https://www.clarin.com/economia/fmi-dijo-razones-aumento-inflacion-marzo-estimo-precios-desaceleraran-proximos-meses_0_szRQhX3Sah.html']' timed out after 60 seconds"
+    }
   ]
 }
