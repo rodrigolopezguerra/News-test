@@ -9,7 +9,7 @@
 ### Capa 1: Archives existentes
 - **Fuente:** site/index.html + articulos/archivados.json
 - **Acción:** Usar directamente sin hacer ningún request a Wayback
-- Si el URL ya tiene archive en el sitio → skip completo
+- Si el URL ya tiene archive → skip completo
 
 ### Capa 2: CDX API check
 - **Fuente:** archive.org/cdx/search/cdx?url=...&from=2026
@@ -24,32 +24,74 @@
 
 ---
 
+## Sistema de Reintentos
+
+### URLs Pendientes (awaiting indexing)
+Cuando SavePageNow acepta pero el artículo no aparece en CDX aún:
+- Guardar en `articulos/pending_urls.json`
+- Recheck cada 1 hora (máximo 3 checks)
+- Si después de 24h sigue sin indexar → mover a failed
+
+### URLs Fallidas (persistently failed)
+- Máximo 3 intentos totales
+- Guardar en `articulos/failed_urls.json`
+- Después de 3 fallos → no más reintentos automáticos
+- Mostrar en sección separada del sitio
+
+### Estructura de tracking
+```json
+// pending_urls.json
+{
+  "url": {
+    "save_accepted_at": "2026-04-18T09:00:00Z",
+    "wayback_url": "https://web.archive.org/save/...",
+    "last_checked": "2026-04-18T10:00:00Z",
+    "checks": 1,
+    "attempts": 1
+  }
+}
+
+// failed_urls.json
+{
+  "url": {
+    "failed_at": "2026-04-18T09:00:00Z",
+    "attempts": 3,
+    "reason": "timeout|error|pending_timeout"
+  }
+}
+```
+
+---
+
 ## Rate Limits según políticas de Wayback Machine
 
 | API | Límite | Implementado |
 |-----|--------|--------------|
-| CDX API | ~8 req/seg | 1 req/seg ✅ |
-| SavePageNow | ~15 req/min | 5 seg entre req ✅ |
-
-**IMPORTANTE:** 
-- 1.5 segundos para SavePageNow es DEMASIADO RÁPIDO y causa HTTP 429
-- Mínimo 4 segundos, usar 5 segundos para seguridad
+| CDX API | ~8 req/seg | 1 req/seg |
+| SavePageNow | ~15 req/min | 5 seg entre req |
 
 ---
 
 ## Flujo completo
 
-1. Scrape: obtener URLs de clarin.com
-2. Archivo: python3 archive_robust.py (3 capas)
-3. Generar sitio: site/index.html
-4. Git push a origin main
+```bash
+cd /home/opc/.openclaw/workspace-freeclarin
+
+# 1. Archivo: 3 capas + reintentos
+python3 archive_robust.py
+
+# 2. Generar sitio
+python3 generate_site.py
+
+# (git push es automático al final de archive_robust.py)
+```
 
 ---
 
 ## Logging
 
 Guardar en memory/YYYY-MM-DD.md:
-- URLs encontradas, archivadas, fallidas
+- URLs encontradas, archivadas, pendientes, fallidas
 - De cuál capa vino cada archive
 - Errores si los hay
 
