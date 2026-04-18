@@ -1,1 +1,536 @@
-[]
+[
+  {
+    "url": "https://www.clarin.com/economia/dolar-blue-hoy-cotiza-sabado-18-abril_0_KlkMQmzeGI.html",
+    "title": "Dólar blue",
+    "section": "economia",
+    "section_display": "Economía"
+  },
+  {
+    "url": "https://www.clarin.com/mundo/guerra-estados-unidos-israel-iran-vivo-imprevisto-giro-regimen-persa-asegura-cerro-vez-estrecho-ormuz_0_CWjXOBlCth.html",
+    "title": "Guerra en Medio Oriente",
+    "section": "mundo",
+    "section_display": "Mundo"
+  },
+  {
+    "url": "https://www.clarin.com/politica/javier-milei-medidas-vivo-presidente-viaja-hoy-vez-israel-verse-netanyahu-medio-guerra-medio-oriente_0_MLL7OtnfRx.html",
+    "title": "Javier Milei",
+    "section": "politica",
+    "section_display": "Política"
+  },
+  {
+    "url": "https://www.clarin.com/politica/corrupcion-afa-fiscal-santiago-estero-pidio-detencion-inhibicion-bienes-chiqui-tapia-pablo-toviggino_0_HSwzlZUSuE.html",
+    "title": "Corrupción AFA",
+    "section": "politica",
+    "section_display": "Política"
+  },
+  {
+    "url": "https://www.clarin.com/politica/gordo-dan-hablo-pelea-lilia-lemoine-despues-milei-apoyara-trompadas-meter-ahora_0_BT3B7XcIqS.html",
+    "title": "Interna libertaria",
+    "section": "politica",
+    "section_display": "Política"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/inter-miami-lionel-messi-vs-colorado-rapids-mls-horario-verlo-tv-formaciones_0_0CGbb553fz.html",
+    "title": "Inter Miami de Messi",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/fama/juana-viale-revelo-sigue-mirtha-legrand-ausentarse-grabacion-programa_0_eUrR4k2C1V.html",
+    "title": "Mirtha Legrand",
+    "section": "fama",
+    "section_display": "Fama"
+  },
+  {
+    "url": "https://www.clarin.com/espectaculos/ricky-martin-agradecido-buenos-aires-convirtio-campo-argentin-polo-pista-baile-ustedes-vicio_0_79jfRPUIHv.html",
+    "title": "Ricky Martin",
+    "section": "espectaculos",
+    "section_display": "Espectáculos"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/f1-gp-miami-horarios-entrenamiento-clasificacion-ver-formula-1_0_KpcBQIID3O.html",
+    "title": "F1 Gp Miami Horarios Entrenamiento Clasificacion Ver Formula 1 Kpcbqiid3O",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/economia/jubilaciones-anses-mayo-2026-aumento-quedarian-haberes_0_QVePS5tnvG.html",
+    "title": "Jubilaciones Anses Mayo 2026 Aumento Quedarian Haberes Qveps5Tnvg",
+    "section": "economia",
+    "section_display": "Economía"
+  },
+  {
+    "url": "https://www.clarin.com/politica/fiscal-pateo-tablero-poder-depositos-multimillonarios-novia-toviggino-plata-afa_0_Y2ezs8XpsJ.html",
+    "title": "Fiscal Pateo Tablero Poder Depositos Multimillonarios Novia Toviggino Plata Afa Y2Ezs8Xpsj",
+    "section": "politica",
+    "section_display": "Política"
+  },
+  {
+    "url": "https://www.clarin.com/opinion/economia-rescate-politica-una-suelta-pesos-cambiar-clima_0_ZsiGfdG31j.html",
+    "title": "Economia Rescate Politica Una Suelta Pesos Cambiar Clima Zsigfdg31J",
+    "section": "opinion",
+    "section_display": "Opinión"
+  },
+  {
+    "url": "https://www.clarin.com/politica/bancaste-villarruel-pagano-vida-real-vos-dejabas-caer-gobierno-lilia-lemoine-cruzo-gordo-dan-agito-interna-libertaria_0_JbYzgQHUCP.html",
+    "title": "Bancaste Villarruel Pagano Vida Real Vos Dejabas Caer Gobierno Lilia Lemoine Cruzo Gordo Dan Agito I",
+    "section": "politica",
+    "section_display": "Política"
+  },
+  {
+    "url": "https://www.clarin.com/opinion/luvia-telgopor-scioli-carne-burro_0_5OMGxLCYlA.html",
+    "title": "Luvia Telgopor Scioli Carne Burro 5Omgxlcyla",
+    "section": "opinion",
+    "section_display": "Opinión"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/potro-mano-mano-clarin-duro-aceptar-cuerpo-acompanaba-despedida-djokovic-dio-paz_0_1DJgcyWk4R.html",
+    "title": "Potro Mano Mano Clarin Duro Aceptar Cuerpo Acompanaba Despedida Djokovic Dio Paz 1Djgcywk4R",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/policiales/romina-tejerina-rompe-silencio-despues-20-anos-sigo-convencida-victima_0_OvP1NdgIqC.html",
+    "title": "Romina Tejerina Rompe Silencio Despues 20 Anos Sigo Convencida Victima Ovp1Ndgiqc",
+    "section": "policiales",
+    "section_display": "Policiales"
+  },
+  {
+    "url": "https://www.clarin.com/sociedad/hallan-nueva-droga-adelgazar-diferencia-ozempic-reduce-hambre-quema-calorias_0_lMyBkC7Kn8.html",
+    "title": "Hallan Nueva Droga Adelgazar Diferencia Ozempic Reduce Hambre Quema Calorias Lmybkc7Kn8",
+    "section": "sociedad",
+    "section_display": "Sociedad"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/renuncia-mascherano-sigue-haciendo-ruido-inter-miami-discusion-sello-final-habla-atmosfera-intensa-messi_0_JH8ZztJ5rV.html",
+    "title": "Renuncia Mascherano Sigue Haciendo Ruido Inter Miami Discusion Sello Final Habla Atmosfera Intensa M",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/martin-demichelis-enamora-espana-revolucion-mallorca-equipo-autor-pocas-fechas-salio-descenso_0_xcpTO1nrQr.html",
+    "title": "Martin Demichelis Enamora Espana Revolucion Mallorca Equipo Autor Pocas Fechas Salio Descenso Xcpto1",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/internacional/misteriosas-aldeas-shein-casas-viene-realmente-ropa-compramos-plataforma-china_0_HukMxWEd7j.html",
+    "title": "Misteriosas Aldeas Shein Casas Viene Realmente Ropa Compramos Plataforma China Hukmxwed7J",
+    "section": "internacional",
+    "section_display": "Internacional"
+  },
+  {
+    "url": "https://www.clarin.com/espectaculos/ivan-pineda-considera-nono-hace-demasiados-planes-futuro-razones-verborragia-espiritualidad_0_FvMiYuuE2y.html",
+    "title": "Ivan Pineda Considera Nono Hace Demasiados Planes Futuro Razones Verborragia Espiritualidad Fvmiyuue",
+    "section": "espectaculos",
+    "section_display": "Espectáculos"
+  },
+  {
+    "url": "https://www.clarin.com/sociedad/conmocion-rosario-pareja-estudiantes-aparecio-muerta-cuadras-distancia_0_B7yBgnYKOI.html",
+    "title": "Conmocion Rosario Pareja Estudiantes Aparecio Muerta Cuadras Distancia B7Ybgnykoi",
+    "section": "sociedad",
+    "section_display": "Sociedad"
+  },
+  {
+    "url": "https://www.clarin.com/politica/cumplen-70-anos-conflictiva-relacion-fondo-monetario-internacional_0_I2asy1oPnT.html",
+    "title": "Cumplen 70 Anos Conflictiva Relacion Fondo Monetario Internacional I2Asy1Opnt",
+    "section": "politica",
+    "section_display": "Política"
+  },
+  {
+    "url": "https://www.clarin.com/politica/manuel-adorni-suma-fotos-karina-milei-suma_0_WlRxM8wE9H.html",
+    "title": "Manuel Adorni Suma Fotos Karina Milei Suma Wlrxm8We9H",
+    "section": "politica",
+    "section_display": "Política"
+  },
+  {
+    "url": "https://www.clarin.com/opinion/panorama-internacional-inesperado-vietnam-donald-trump_0_gRo4zp7Okg.html",
+    "title": "Panorama Internacional Inesperado Vietnam Donald Trump Gro4Zp7Okg",
+    "section": "opinion",
+    "section_display": "Opinión"
+  },
+  {
+    "url": "https://www.clarin.com/opinion/manuel-vicent-porvenir-actua-golpe-teatro_0_2MUkiVUvc8.html",
+    "title": "Manuel Vicent Porvenir Actua Golpe Teatro 2Mukivuvc8",
+    "section": "opinion",
+    "section_display": "Opinión"
+  },
+  {
+    "url": "https://www.clarin.com/opinion/mentira-digo_0_EeRU1ZFn4z.html",
+    "title": "Mentira Digo Eeru1Zfn4Z",
+    "section": "opinion",
+    "section_display": "Opinión"
+  },
+  {
+    "url": "https://www.clarin.com/buena-vida/microbiota-sirven-bacterias-viven-dentro-cuerpo_0_xOSwhfjqtr.html",
+    "title": "Microbiota Sirven Bacterias Viven Dentro Cuerpo Xoswhfjqtr",
+    "section": "buena-vida",
+    "section_display": "Buena Vida"
+  },
+  {
+    "url": "https://www.clarin.com/opinion/argentina-demora-prisa_0_XbqkF6YIlx.html",
+    "title": "Argentina Demora Prisa Xbqkf6Yilx",
+    "section": "opinion",
+    "section_display": "Opinión"
+  },
+  {
+    "url": "https://www.clarin.com/economia/fmi-dijo-razones-aumento-inflacion-marzo-estimo-precios-desaceleraran-proximos-meses_0_szRQhX3Sah.html",
+    "title": "Fmi Dijo Razones Aumento Inflacion Marzo Estimo Precios Desaceleraran Proximos Meses Szrqhx3Sah",
+    "section": "economia",
+    "section_display": "Economía"
+  },
+  {
+    "url": "https://www.clarin.com/economia/luis-caputo-kristalina-georgieva-reunieron-fmi-clima-distendido-acuerdo-programa_0_K6Jzqd4uaH.html",
+    "title": "Luis Caputo Kristalina Georgieva Reunieron Fmi Clima Distendido Acuerdo Programa K6Jzqd4Uah",
+    "section": "economia",
+    "section_display": "Economía"
+  },
+  {
+    "url": "https://www.clarin.com/politica/mauricio-macri-lanzo-gira-nacional-chaco-guinos-milei-advertencia-silencio-traiciona-cambio_0_jBe0vdEnoc.html",
+    "title": "Mauricio Macri Lanzo Gira Nacional Chaco Guinos Milei Advertencia Silencio Traiciona Cambio Jbe0Vden",
+    "section": "politica",
+    "section_display": "Política"
+  },
+  {
+    "url": "https://www.clarin.com/politica/gobierno-presento-recurso-extraordinario-corte-suprema-evitar-pago-universidades_0_hpPz1VBL13.html",
+    "title": "Gobierno Presento Recurso Extraordinario Corte Suprema Evitar Pago Universidades Hppz1Vbl13",
+    "section": "politica",
+    "section_display": "Política"
+  },
+  {
+    "url": "https://www.clarin.com/policiales/triple-crimen-florencio-varela-empezo-parte-final-proceso-extradicion-pequeno-j-detenido-peru_0_rTN0j2eRjk.html",
+    "title": "Triple Crimen Florencio Varela Empezo Parte Final Proceso Extradicion Pequeno J Detenido Peru Rtn0J2",
+    "section": "policiales",
+    "section_display": "Policiales"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/murio-oscar-schmidt-leyenda-basquet-mundial-68-anos_0_xqYk4QyxYa.html",
+    "title": "Murio Oscar Schmidt Leyenda Basquet Mundial 68 Anos Xqyk4Qyxya",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/tecnologia/anthropic-encendio-alarma-industria-ia-preocupa-potencial-hackear-sistemas_0_VxhHLI0iY5.html",
+    "title": "Anthropic Encendio Alarma Industria Ia Preocupa Potencial Hackear Sistemas Vxhhli0Iy5",
+    "section": "tecnologia",
+    "section_display": "Tecnología"
+  },
+  {
+    "url": "https://www.clarin.com/servicios/plazo-fijo-dolares-rinde-ahora-dejar-us10000-bancos-pagan_0_kyjtK1Lbm2.html",
+    "title": "Plazo Fijo Dolares Rinde Ahora Dejar Us10000 Bancos Pagan Kyjtk1Lbm2",
+    "section": "servicios",
+    "section_display": "Servicios"
+  },
+  {
+    "url": "https://www.clarin.com/revista-n/gilles-lipovetsky-hoy-artistas-caros-mundo-kitsch_0_WljX3cuVEs.html",
+    "title": "Gilles Lipovetsky Hoy Artistas Caros Mundo Kitsch Wljx3Cuves",
+    "section": "revista-n",
+    "section_display": "Revista Ñ"
+  },
+  {
+    "url": "https://www.clarin.com/revista-n/casta-ensobrados-kukas-econochantas-empresaurios-mandriles-lengua-hiriente-poder_0_RQxi6Xgc9Q.html",
+    "title": "Casta Ensobrados Kukas Econochantas Empresaurios Mandriles Lengua Hiriente Poder Rqxi6Xgc9Q",
+    "section": "revista-n",
+    "section_display": "Revista Ñ"
+  },
+  {
+    "url": "https://www.clarin.com/revista-n/bafici-2026-julian-radlmaier-cineasta-aleman-comedias-marxistas_0_zyYFvQ2Bkv.html",
+    "title": "Bafici 2026 Julian Radlmaier Cineasta Aleman Comedias Marxistas Zyyfvq2Bkv",
+    "section": "revista-n",
+    "section_display": "Revista Ñ"
+  },
+  {
+    "url": "https://www.clarin.com/revista-n/julio-ramon-ribeyro-gran-revancha-derrotas_0_Dq9nNd6zUy.html",
+    "title": "Julio Ramon Ribeyro Gran Revancha Derrotas Dq9Nnd6Zuy",
+    "section": "revista-n",
+    "section_display": "Revista Ñ"
+  },
+  {
+    "url": "https://www.clarin.com/recetas/platos-principales/pulled-pork-sandwich_7_N9wDbNE2uN.html",
+    "title": "Pulled Pork Sandwich 7 N9Wdbne2Un",
+    "section": "recetas",
+    "section_display": "Recetas"
+  },
+  {
+    "url": "https://www.clarin.com/recetas/platos-principales/tortilla-papa-chorizo-colorado_7_u7GRyh77F.html",
+    "title": "Tortilla Papa Chorizo Colorado 7 U7Gryh77F",
+    "section": "recetas",
+    "section_display": "Recetas"
+  },
+  {
+    "url": "https://www.clarin.com/recetas/platos-principales/patas-de-pollo-picantes-a-la-parrilla_7_cayX11CCNN.html",
+    "title": "Patas De Pollo Picantes A La Parrilla 7 Cayx11Ccnn",
+    "section": "recetas",
+    "section_display": "Recetas"
+  },
+  {
+    "url": "https://www.clarin.com/recetas/platos-principales/pizza-de-queso-azul--peras-y-rucula_7_C8x9E1WC2.html",
+    "title": "Pizza De Queso Azul  Peras Y Rucula 7 C8X9E1Wc2",
+    "section": "recetas",
+    "section_display": "Recetas"
+  },
+  {
+    "url": "https://www.clarin.com/espectaculos/eva-longoria-encontro-trabajos-sonados_0_rrqTbLnPEk.html",
+    "title": "Eva Longoria Encontro Trabajos Sonados Rrqtblnpek",
+    "section": "espectaculos",
+    "section_display": "Espectáculos"
+  },
+  {
+    "url": "https://www.clarin.com/ciudades/calle-fantasma-paseo-arte-pasaje-lanin-festeja-25-anos_0_hTVn5TwOFZ.html",
+    "title": "Calle Fantasma Paseo Arte Pasaje Lanin Festeja 25 Anos Htvn5Twofz",
+    "section": "ciudades",
+    "section_display": "Ciudades"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/flag-football-nuevo-deporte-olimpico-debuta-suramericanos-juventud-panama-2026-formo-seleccion-argentina-componen_0_D9iVnFZDbh.html",
+    "title": "Flag Football Nuevo Deporte Olimpico Debuta Suramericanos Juventud Panama 2026 Formo Seleccion Argen",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/viajes/paraiso-queso-gouda-tradiciones-ancestrales-secretos-toldos-escapada-bonaerense_0_rM7FxO3sig.html",
+    "title": "Paraiso Queso Gouda Tradiciones Ancestrales Secretos Toldos Escapada Bonaerense Rm7Fxo3Sig",
+    "section": "viajes",
+    "section_display": "Viajes"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/marcos-rojo-hablo-expulsion-river-pidio-perdon-racing-quejo-equivoco-piden-cabeza_0_JjvpaWwIva.html",
+    "title": "Marcos Rojo Hablo Expulsion River Pidio Perdon Racing Quejo Equivoco Piden Cabeza Jjvpawwiva",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/union-santa-fe-vs-newells-old-boys-vivo-torneo-apertura-liga-profesional-futbol-minuto-minuto_0_5dnh5trk7o.html",
+    "title": "Union Santa Fe Vs Newells Old Boys Vivo Torneo Apertura Liga Profesional Futbol Minuto Minuto 5Dnh5T",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/nico-paz-metio-golazo-cabeza-pocas-veces-visto-perdio-complico-serie_0_ajRZqFfB61.html",
+    "title": "Nico Paz Metio Golazo Cabeza Pocas Veces Visto Perdio Complico Serie Ajrzqffb61",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/espana-1982-maradona-queria-hablar-final-callo_0_LcBm4LfFoI.html",
+    "title": "Espana 1982 Maradona Queria Hablar Final Callo Lcbm4Lffoi",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/deportes/insolita-secuencia-copa-sudamericana-argentino-pego-patadas-misma-jugada-sacaron-amarillas-expulsado_0_JlzaNCb5eT.html",
+    "title": "Insolita Secuencia Copa Sudamericana Argentino Pego Patadas Misma Jugada Sacaron Amarillas Expulsado",
+    "section": "deportes",
+    "section_display": "Deportes"
+  },
+  {
+    "url": "https://www.clarin.com/economia/respaldo-banco-mundial-financiar-deuda-bid-dara-us550-millones-garantias_0_SY1SLl4THC.html",
+    "title": "Respaldo Banco Mundial Financiar Deuda Bid Dara Us550 Millones Garantias Sy1Sll4Thc",
+    "section": "economia",
+    "section_display": "Economía"
+  },
+  {
+    "url": "https://www.clarin.com/economia/jubilados-arrancaron-ano-nuevas-perdidas-inflacion_0_4V2XHQ3SoM.html",
+    "title": "Jubilados Arrancaron Ano Nuevas Perdidas Inflacion 4V2Xhq3Som",
+    "section": "economia",
+    "section_display": "Economía"
+  },
+  {
+    "url": "https://www.clarin.com/economia/lluvia-inversiones-petroleras-prometen-us-90000-millones-multiplicar-4-exportaciones-2035_0_1wOujfQWA6.html",
+    "title": "Lluvia Inversiones Petroleras Prometen Us 90000 Millones Multiplicar 4 Exportaciones 2035 1Woujfqwa6",
+    "section": "economia",
+    "section_display": "Economía"
+  },
+  {
+    "url": "https://www.clarin.com/economia/gobierno-reforma-sistema-aduana-factoria-cambia-podran-usarla-empresas-industriales_0_DZPTey0z8P.html",
+    "title": "Gobierno Reforma Sistema Aduana Factoria Cambia Podran Usarla Empresas Industriales Dzptey0Z8P",
+    "section": "economia",
+    "section_display": "Economía"
+  },
+  {
+    "url": "https://www.clarin.com/economia/provincias-lanzan-fondo-inversion-financiar-startups-cientificas-requisitos_0_A9zfKHhki2.html",
+    "title": "Provincias Lanzan Fondo Inversion Financiar Startups Cientificas Requisitos A9Zfkhhki2",
+    "section": "economia",
+    "section_display": "Economía"
+  },
+  {
+    "url": "https://www.clarin.com/fama/mirtha-legrand-suspendio-grabacion-programa-problema-salud-detalles_0_meyzNW03Bm.html",
+    "title": "Mirtha Legrand Suspendio Grabacion Programa Problema Salud Detalles Meyznw03Bm",
+    "section": "fama",
+    "section_display": "Fama"
+  },
+  {
+    "url": "https://www.clarin.com/fama/furioso-descargo-maria-fernanda-callejon-exmarido-saco-hija_0_zxEmjOAeAM.html",
+    "title": "Furioso Descargo Maria Fernanda Callejon Exmarido Saco Hija Zxemjoaeam",
+    "section": "fama",
+    "section_display": "Fama"
+  },
+  {
+    "url": "https://www.clarin.com/fama/confesion-mica-viciconte-fabian-cubero-conflicto-nicole-neumann-pide-consejos-hijas_0_9gG2q23eZJ.html",
+    "title": "Confesion Mica Viciconte Fabian Cubero Conflicto Nicole Neumann Pide Consejos Hijas 9Gg2Q23Ezj",
+    "section": "fama",
+    "section_display": "Fama"
+  },
+  {
+    "url": "https://www.clarin.com/fama/pamela-david-sorprendio-decir-votaria-axel-kicillof-presidente-proximas-elecciones-dificil-elegir_0_yEHzH58dED.html",
+    "title": "Pamela David Sorprendio Decir Votaria Axel Kicillof Presidente Proximas Elecciones Dificil Elegir Ye",
+    "section": "fama",
+    "section_display": "Fama"
+  },
+  {
+    "url": "https://www.clarin.com/fama/simuladores-federico-d-elia-conto-dia-quedo-preso-engano-policia_0_y6zwqi5tuR.html",
+    "title": "Simuladores Federico D Elia Conto Dia Quedo Preso Engano Policia Y6Zwqi5Tur",
+    "section": "fama",
+    "section_display": "Fama"
+  },
+  {
+    "url": "https://www.clarin.com/fama/vive-rocio-marengo-diseno-moderno-living-estilo-japandi_0_wcIU2gB2uS.html",
+    "title": "Vive Rocio Marengo Diseno Moderno Living Estilo Japandi Wciu2Gb2Us",
+    "section": "fama",
+    "section_display": "Fama"
+  },
+  {
+    "url": "https://www.clarin.com/gourmet/recoleta-25-cafeterias-confiterias-ideal-escudos-aire-libre-precios-promocionales_0_9TPSKw6XFe.html",
+    "title": "Recoleta 25 Cafeterias Confiterias Ideal Escudos Aire Libre Precios Promocionales 9Tpskw6Xfe",
+    "section": "gourmet",
+    "section_display": "Gourmet"
+  },
+  {
+    "url": "https://www.clarin.com/ciudades/steak-tartare-plato-carne-cruda-puso-moda-restaurantes-portenos_0_01pcg1YRiJ.html",
+    "title": "Steak Tartare Plato Carne Cruda Puso Moda Restaurantes Portenos 01Pcg1Yrij",
+    "section": "ciudades",
+    "section_display": "Ciudades"
+  },
+  {
+    "url": "https://www.clarin.com/gourmet/dia-malbec-15-vinos-marcan-tendencia-quieren-probar_0_ZwPCEApllJ.html",
+    "title": "Dia Malbec 15 Vinos Marcan Tendencia Quieren Probar Zwpceapllj",
+    "section": "gourmet",
+    "section_display": "Gourmet"
+  },
+  {
+    "url": "https://www.clarin.com/relaciones/5-juguetes-sexuales-parecen-heladito-caracol_0_oSep7ZzIRj.html",
+    "title": "5 Juguetes Sexuales Parecen Heladito Caracol Osep7Zzirj",
+    "section": "relaciones",
+    "section_display": "Relaciones"
+  },
+  {
+    "url": "https://www.clarin.com/internacional/comandante-artemis-ii-revelo-paso-bano-espacio-inodoro-maravilloso-problema_0_tg9kC7ASBF.html",
+    "title": "Comandante Artemis Ii Revelo Paso Bano Espacio Inodoro Maravilloso Problema Tg9Kc7Asbf",
+    "section": "internacional",
+    "section_display": "Internacional"
+  },
+  {
+    "url": "https://www.clarin.com/espectaculos/pedro-alonso-vuelve-berlin-fascinante-ladron-casa-papel-personaje-impresentable-limites-morales_0_gkgRomapSM.html",
+    "title": "Pedro Alonso Vuelve Berlin Fascinante Ladron Casa Papel Personaje Impresentable Limites Morales Gkgr",
+    "section": "espectaculos",
+    "section_display": "Espectáculos"
+  },
+  {
+    "url": "https://www.clarin.com/espectaculos/val-kilmer-inteligencia-artificial-puede-ganar-oscar_0_pi3Vueav47.html",
+    "title": "Val Kilmer Inteligencia Artificial Puede Ganar Oscar Pi3Vueav47",
+    "section": "espectaculos",
+    "section_display": "Espectáculos"
+  },
+  {
+    "url": "https://www.clarin.com/internacional/solo-libro-toda-tienda-exito-hace-anos_0_BPo8jjGZUR.html",
+    "title": "Solo Libro Toda Tienda Exito Hace Anos Bpo8Jjgzur",
+    "section": "internacional",
+    "section_display": "Internacional"
+  },
+  {
+    "url": "https://www.clarin.com/internacional/siglo-naufragio-titanic-subastan-chaleco-salvavidas-sobreviviente_0_ZIs8of3bYT.html",
+    "title": "Siglo Naufragio Titanic Subastan Chaleco Salvavidas Sobreviviente Zis8Of3Byt",
+    "section": "internacional",
+    "section_display": "Internacional"
+  },
+  {
+    "url": "https://www.clarin.com/rural/transformar-boom-ganadero-crecimiento-sostenido_0_FBJL6oDZtl.html",
+    "title": "Transformar Boom Ganadero Crecimiento Sostenido Fbjl6Odztl",
+    "section": "rural",
+    "section_display": "Rural"
+  },
+  {
+    "url": "https://www.clarin.com/rural/inversion-entra-casillero_0_2AB0I5U7qf.html",
+    "title": "Inversion Entra Casillero 2Ab0I5U7Qf",
+    "section": "rural",
+    "section_display": "Rural"
+  },
+  {
+    "url": "https://www.clarin.com/rural/girasol-cultivo-crecio-mayor-potencial_0_m9o5IQ9NRq.html",
+    "title": "Girasol Cultivo Crecio Mayor Potencial M9O5Iq9Nrq",
+    "section": "rural",
+    "section_display": "Rural"
+  },
+  {
+    "url": "https://www.clarin.com/rural/zona-semiarida-rodeo-grande-pais-raza-emblematica-sigue-perfeccionando-calidad-carne_0_EivQ4XWk6A.html",
+    "title": "Zona Semiarida Rodeo Grande Pais Raza Emblematica Sigue Perfeccionando Calidad Carne Eivq4Xwk6A",
+    "section": "rural",
+    "section_display": "Rural"
+  },
+  {
+    "url": "https://www.clarin.com/rural/agrobusiness-supera-vez-industria-manufacturera-brasilena_0_22aeGdUt6l.html",
+    "title": "Agrobusiness Supera Vez Industria Manufacturera Brasilena 22Aegdut6L",
+    "section": "rural",
+    "section_display": "Rural"
+  },
+  {
+    "url": "https://www.clarin.com/rural/nuevo-estandar-residualidad-selectividad-control-preemergente-cruciferas-trigo-cebada_0_yRWAirbrZn.html",
+    "title": "Nuevo Estandar Residualidad Selectividad Control Preemergente Cruciferas Trigo Cebada Yrwairbrzn",
+    "section": "rural",
+    "section_display": "Rural"
+  },
+  {
+    "url": "https://www.clarin.com/new-york-times-international-weekly/new-york/proyecto-arco-triunfo-trump-agrada-nadie-propuso_0_m8GoQM7hKU.html",
+    "title": "Proyecto Arco Triunfo Trump Agrada Nadie Propuso M8Goqm7Hku",
+    "section": "new-york-times-international-weekly",
+    "section_display": "NYT Internacional"
+  },
+  {
+    "url": "https://www.clarin.com/new-york-times-international-weekly/barcos-fantasma-spoofing-buques-estrecho-ormuz-amenaza-aumentar-caos-zona_0_wNVqNHfhdl.html",
+    "title": "Barcos Fantasma Spoofing Buques Estrecho Ormuz Amenaza Aumentar Caos Zona Wnvqnhfhdl",
+    "section": "new-york-times-international-weekly",
+    "section_display": "NYT Internacional"
+  },
+  {
+    "url": "https://www.clarin.com/new-york-times-international-weekly/hija-kim-jong-conduce-tanque-crecen-versiones-sucesion_0_7Xa9QJ9RHz.html",
+    "title": "Hija Kim Jong Conduce Tanque Crecen Versiones Sucesion 7Xa9Qj9Rhz",
+    "section": "new-york-times-international-weekly",
+    "section_display": "NYT Internacional"
+  },
+  {
+    "url": "https://www.clarin.com/new-york-times-international-weekly/guerra-oriente-medio-paralizo-gigante-alimentario-asiatico_0_K9oaNe0V6l.html",
+    "title": "Guerra Oriente Medio Paralizo Gigante Alimentario Asiatico K9Oane0V6L",
+    "section": "new-york-times-international-weekly",
+    "section_display": "NYT Internacional"
+  },
+  {
+    "url": "https://www.clarin.com/zonales/cacho-primer-influencer-argentino-masivo-creado-ia_0_P5rpeasv5j.html",
+    "title": "Cacho Primer Influencer Argentino Masivo Creado Ia P5Rpeasv5J",
+    "section": "zonales",
+    "section_display": "Zonales"
+  },
+  {
+    "url": "https://www.clarin.com/zonales/alfajor-200-kilos-celebrar-festival-gratuito-pasteleros-top-escobar_0_o7qeoe3PBJ.html",
+    "title": "Alfajor 200 Kilos Celebrar Festival Gratuito Pasteleros Top Escobar O7Qeoe3Pbj",
+    "section": "zonales",
+    "section_display": "Zonales"
+  },
+  {
+    "url": "https://www.clarin.com/zonales/alimentaba-basura-conejos-terneros-cabras-detenido-rescataron-200-animales_0_OFwuxQmcwl.html",
+    "title": "Alimentaba Basura Conejos Terneros Cabras Detenido Rescataron 200 Animales Ofwuxqmcwl",
+    "section": "zonales",
+    "section_display": "Zonales"
+  },
+  {
+    "url": "https://www.clarin.com/zonales/gato-elegante-arturo-cumplio-22-anos-festejo-grande_0_7Z2k7JTnaV.html",
+    "title": "Gato Elegante Arturo Cumplio 22 Anos Festejo Grande 7Z2K7Jtnav",
+    "section": "zonales",
+    "section_display": "Zonales"
+  },
+  {
+    "url": "https://www.clarin.com/zonales/coleccion-privada-mariposas-grande-america-gba_0_a1QD0patSa.html",
+    "title": "Coleccion Privada Mariposas Grande America Gba A1Qd0Patsa",
+    "section": "zonales",
+    "section_display": "Zonales"
+  }
+]

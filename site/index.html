@@ -11,9 +11,9 @@
         .header-top { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; }
         .logo { font-size: 2.2em; font-weight: 900; letter-spacing: -1px; }
         .logo span { color: #ffd700; }
-        .header-date { font-size: 0.85em; opacity: 0.9; }
+        .header-date { font-size: 0.85em; opacity: 0.9; text-align: right; }
         nav { background: #1a1a1a; padding: 10px 20px; }
-        nav ul { list-style: none; display: flex; gap: 25px; max-width: 1200px; margin: 0 auto; overflow-x: auto; }
+        nav ul { list-style: none; display: flex; gap: 25px; max-width: 1200px; margin: 0 auto; overflow-x: auto; flex-wrap: wrap; }
         nav a { color: white; text-decoration: none; font-size: 0.9em; font-weight: 500; white-space: nowrap; }
         nav a:hover { color: #e61e2a; }
         main { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
@@ -24,26 +24,31 @@
         .article-card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; }
         .article-card:hover { transform: translateY(-3px); box-shadow: 0 5px 20px rgba(0,0,0,0.15); }
         .article-card .content { padding: 15px; }
-        .article-card h3 { font-size: 1em; margin-bottom: 8px; }
+        .article-card h3 { font-size: 1em; margin-bottom: 8px; line-height: 1.3; }
         .article-card h3 a { color: #1a1a1a; text-decoration: none; }
         .article-card h3 a:hover { color: #e61e2a; }
-        .article-card .meta { font-size: 0.8em; color: #999; margin-top: 10px; }
+        .article-card .meta { font-size: 0.8em; color: #999; margin-top: 10px; display: flex; justify-content: space-between; }
         .archivable-badge { display: inline-block; background: #ffc107; color: #333; font-size: 0.65em; padding: 2px 6px; border-radius: 3px; margin-left: 4px; }
+        .live-badge { background: #e61e2a; color: white; font-size: 0.65em; padding: 2px 6px; border-radius: 3px; margin-left: 4px; }
         footer { background: #1a1a1a; color: #999; text-align: center; padding: 30px; margin-top: 50px; }
         footer a { color: #e61e2a; }
-        @media (max-width: 768px) { .hero-section { grid-template-columns: 1fr; } }
+        .stats { background: white; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .stats-grid { display: flex; gap: 30px; flex-wrap: wrap; }
+        .stat { text-align: center; }
+        .stat .num { font-size: 2em; font-weight: 700; color: #e61e2a; }
+        .stat .label { font-size: 0.8em; color: #666; }
+        @media (max-width: 768px) { .articles-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <header>
         <div class="header-top">
-            <div class="logo">Clarín</div>
-            <div class="header-date">Archivo Local | 2026-04-18</div>
+            <div class="logo">Clarín <span>📦</span></div>
+            <div class="header-date">Archivo Local<br>2026-04-18<br><small>Generado: 2026-04-18 13:03</small></div>
         </div>
     </header>
     <nav>
         <ul>
-            <li><a href="#resumen">Resumen</a></li>
             <li><a href="#economia">Economía</a></li>
             <li><a href="#politica">Política</a></li>
             <li><a href="#deportes">Deportes</a></li>
@@ -51,74 +56,906 @@
             <li><a href="#sociedad">Sociedad</a></li>
             <li><a href="#espectaculos">Espectáculos</a></li>
             <li><a href="#fama">Fama</a></li>
+            <li><a href="#internacional">Internacional</a></li>
+            <li><a href="#buena-vida">Buena Vida</a></li>
+            <li><a href="#ciudades">Ciudades</a></li>
+            <li><a href="#gourmet">Gourmet</a></li>
+            <li><a href="#recetas">Recetas</a></li>
+            <li><a href="#rural">Rural</a></li>
+            <li><a href="#zonales">Zonales</a></li>
+            <li><a href="#opinion">Opinión</a></li>
+            <li><a href="#revista-n">Revista Ñ</a></li>
+            <li><a href="#nyt-internacional">NYT Internacional</a></li>
+            <li><a href="#policiales">Policiales</a></li>
+            <li><a href="#relaciones">Relaciones</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#tecnologia">Tecnología</a></li>
+            <li><a href="#viajes">Viajes</a></li>
         </ul>
     </nav>
     <main>
         <div class="disclaimer">
-            <strong>Archivo Educativo:</strong> Este sitio es un clon con fines educativos y de prueba. 
-            Contenido de clarin.com replicado para accesibilidad.
+            ⚠️ <strong>Archivo educativo.</strong> Este sitio recrea noticias de clarin.com para acceso local. 
+            El contenido pertenece a <a href="https://www.clarin.com" target="_blank">clarin.com</a>.
         </div>
-        <div class="error-msg">
-            <strong>Nota:</strong> archive.is no está reachable desde este servidor. Los enlaces apuntan al sitio original.
+        <div class="stats">
+            <div class="stats-grid">
+                <div class="stat"><div class="num">89</div><div class="label">Artículos</div></div>
+                <div class="stat"><div class="num">22</div><div class="label">Secciones</div></div>
+                <div class="stat"><div class="num">2026-04-18</div><div class="label">Fecha</div></div>
+            </div>
         </div>
-        
-        <h2 class="section-title" id="resumen">Resumen de Secciones</h2>
+        <h2 class="section-title" id="economia">Economía (9)</h2>
         <div class="articles-grid">
-            <div class="article-card"><div class="content"><h3><a href="#deportes">Deportes</a></h3><p class="meta">15 artículos</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="#economia">Economía</a></h3><p class="meta">13 artículos</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="#fama">Fama</a></h3><p class="meta">10 artículos</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="#espectaculos">Espectáculos</a></h3><p class="meta">8 artículos</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="#ciudades">Ciudades</a></h3><p class="meta">2 artículos</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="#gourmet">Gourmet</a></h3><p class="meta">2 artículos</p></div></div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/economia/dolar-blue-hoy-cotiza-sabado-18-abril_0_KlkMQmzeGI.html" target="_blank">Dólar blue</a></h3>
+                    <div class="meta">
+                        <span>Economía</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/economia/jubilaciones-anses-mayo-2026-aumento-quedarian-haberes_0_QVePS5tnvG.html" target="_blank">Jubilaciones Anses Mayo 2026 Aumento Quedarian Haberes Qveps5Tnvg</a></h3>
+                    <div class="meta">
+                        <span>Economía</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/economia/fmi-dijo-razones-aumento-inflacion-marzo-estimo-precios-desaceleraran-proximos-meses_0_szRQhX3Sah.html" target="_blank">Fmi Dijo Razones Aumento Inflacion Marzo Estimo Precios Desaceleraran Proximos Meses Szrqhx3Sah</a></h3>
+                    <div class="meta">
+                        <span>Economía</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/economia/luis-caputo-kristalina-georgieva-reunieron-fmi-clima-distendido-acuerdo-programa_0_K6Jzqd4uaH.html" target="_blank">Luis Caputo Kristalina Georgieva Reunieron Fmi Clima Distendido Acuerdo Programa K6Jzqd4Uah</a></h3>
+                    <div class="meta">
+                        <span>Economía</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/economia/respaldo-banco-mundial-financiar-deuda-bid-dara-us550-millones-garantias_0_SY1SLl4THC.html" target="_blank">Respaldo Banco Mundial Financiar Deuda Bid Dara Us550 Millones Garantias Sy1Sll4Thc</a></h3>
+                    <div class="meta">
+                        <span>Economía</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/economia/jubilados-arrancaron-ano-nuevas-perdidas-inflacion_0_4V2XHQ3SoM.html" target="_blank">Jubilados Arrancaron Ano Nuevas Perdidas Inflacion 4V2Xhq3Som</a></h3>
+                    <div class="meta">
+                        <span>Economía</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/economia/lluvia-inversiones-petroleras-prometen-us-90000-millones-multiplicar-4-exportaciones-2035_0_1wOujfQWA6.html" target="_blank">Lluvia Inversiones Petroleras Prometen Us 90000 Millones Multiplicar 4 Exportaciones 2035 1Woujfqwa6</a></h3>
+                    <div class="meta">
+                        <span>Economía</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/economia/gobierno-reforma-sistema-aduana-factoria-cambia-podran-usarla-empresas-industriales_0_DZPTey0z8P.html" target="_blank">Gobierno Reforma Sistema Aduana Factoria Cambia Podran Usarla Empresas Industriales Dzptey0Z8P</a></h3>
+                    <div class="meta">
+                        <span>Economía</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/economia/provincias-lanzan-fondo-inversion-financiar-startups-cientificas-requisitos_0_A9zfKHhki2.html" target="_blank">Provincias Lanzan Fondo Inversion Financiar Startups Cientificas Requisitos A9Zfkhhki2</a></h3>
+                    <div class="meta">
+                        <span>Economía</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <h2 class="section-title" id="deportes">Deportes</h2>
+        <h2 class="section-title" id="politica">Política (9)</h2>
         <div class="articles-grid">
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/deportes/5-razones-boca-puede-ganarle-river-once-sale-memoria-liderazgo-paredes-alto-nivel-pibes-ley-ex_0_si4iAcCX3x.html" target="_blank">5 razones Boca puede ganarle a River</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/deportes/5-razones-river-puede-ganarle-boca-racha-positiva-mano-coudet-goleadores-buen-momento-arquero_0_2c3zOHDzy3.html" target="_blank">5 razones River puede ganarle a Boca</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/deportes/agostina-hein-demoledora-cuarto-oro-record-argentino-juegos-suramericanos-juventud_0_z8JrPJroKr.html" target="_blank">Agostina Hein: cinco oros y récord argentino</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/deportes/marcos-rojo-hablo-expulsion-river-pidio-perdon-racing-quejo-equivoco-piden-cabeza_0_JjvpaWwIva.html" target="_blank">Marcos Rojo pidió perdón a Racing</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/deportes/murio-oscar-schmidt-leyenda-basquet-mundial-68-anos_0_xqYk4QyxYa.html" target="_blank">Murió Oscar Schmidt, leyenda del básquet</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/deportes/renuncia-mascherano-sigue-haciendo-ruido-inter-miami-discusion-sello-final-habla-atmosfera-intensa-messi_0_JH8ZztJ5rV.html" target="_blank">Renuncia de Mascherano: la discusión con Messi</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/deportes/nico-paz-metio-golazo-cabeza-pocas-veces-visto-perdio-complico-serie_0_ajRZqFfB61.html" target="_blank">Nico Paz metió un golazo de cabeza</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/deportes/flag-football-nuevo-deporte-olimpico-debuta-suramericanos-juventud-panama-2026-formo-seleccion-argentina-componen_0_D9iVnFZDbh.html" target="_blank">Flag football: nuevo deporte olímpico</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/politica/javier-milei-medidas-vivo-presidente-viaja-hoy-vez-israel-verse-netanyahu-medio-guerra-medio-oriente_0_MLL7OtnfRx.html" target="_blank">Javier Milei</a></h3>
+                    <div class="meta">
+                        <span>Política</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/politica/corrupcion-afa-fiscal-santiago-estero-pidio-detencion-inhibicion-bienes-chiqui-tapia-pablo-toviggino_0_HSwzlZUSuE.html" target="_blank">Corrupción AFA</a></h3>
+                    <div class="meta">
+                        <span>Política</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/politica/gordo-dan-hablo-pelea-lilia-lemoine-despues-milei-apoyara-trompadas-meter-ahora_0_BT3B7XcIqS.html" target="_blank">Interna libertaria</a></h3>
+                    <div class="meta">
+                        <span>Política</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/politica/fiscal-pateo-tablero-poder-depositos-multimillonarios-novia-toviggino-plata-afa_0_Y2ezs8XpsJ.html" target="_blank">Fiscal Pateo Tablero Poder Depositos Multimillonarios Novia Toviggino Plata Afa Y2Ezs8Xpsj</a></h3>
+                    <div class="meta">
+                        <span>Política</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/politica/bancaste-villarruel-pagano-vida-real-vos-dejabas-caer-gobierno-lilia-lemoine-cruzo-gordo-dan-agito-interna-libertaria_0_JbYzgQHUCP.html" target="_blank">Bancaste Villarruel Pagano Vida Real Vos Dejabas Caer Gobierno Lilia Lemoine Cruzo Gordo Dan Agito I</a></h3>
+                    <div class="meta">
+                        <span>Política</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/politica/cumplen-70-anos-conflictiva-relacion-fondo-monetario-internacional_0_I2asy1oPnT.html" target="_blank">Cumplen 70 Anos Conflictiva Relacion Fondo Monetario Internacional I2Asy1Opnt</a></h3>
+                    <div class="meta">
+                        <span>Política</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/politica/manuel-adorni-suma-fotos-karina-milei-suma_0_WlRxM8wE9H.html" target="_blank">Manuel Adorni Suma Fotos Karina Milei Suma Wlrxm8We9H</a></h3>
+                    <div class="meta">
+                        <span>Política</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/politica/mauricio-macri-lanzo-gira-nacional-chaco-guinos-milei-advertencia-silencio-traiciona-cambio_0_jBe0vdEnoc.html" target="_blank">Mauricio Macri Lanzo Gira Nacional Chaco Guinos Milei Advertencia Silencio Traiciona Cambio Jbe0Vden</a></h3>
+                    <div class="meta">
+                        <span>Política</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/politica/gobierno-presento-recurso-extraordinario-corte-suprema-evitar-pago-universidades_0_hpPz1VBL13.html" target="_blank">Gobierno Presento Recurso Extraordinario Corte Suprema Evitar Pago Universidades Hppz1Vbl13</a></h3>
+                    <div class="meta">
+                        <span>Política</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <h2 class="section-title" id="economia">Economía</h2>
+        <h2 class="section-title" id="deportes">Deportes (12)</h2>
         <div class="articles-grid">
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/economia/dolar-hoy-dolar-blue-vivo-cotiza-oficial-precio-paralelo-viernes-17-abril-minuto-minuto_0_FcWU1m2Swm.html" target="_blank">Dólar hoy: blue y oficial minuto a minuto</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/economia/ajuste-fiscal-gobierno-volvio-tener-superavit-marzo-consiguio-tercio-meta-renegociada-fmi_0_RDhln36Z3U.html" target="_blank">Ajuste fiscal: Gobierno tuvo superávit en marzo</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/economia/luis-caputo-kristalina-georgieva-reunieron-fmi-clima-distendido-acuerdo-programa_0_K6Jzqd4uaH.html" target="_blank">Caputo y Georgieva se reunieron en el FMI</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/economia/petroleo-cayo-tregua-medio-oriente-efectos-argentina-nafta-campo-dolar-pasajes-avion_0_M09Unzkvv3.html" target="_blank">El petróleo cayó: efectos en Argentina</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/economia/fmi-dijo-razones-aumento-inflacion-marzo-estimo-precios-desaceleraran-proximos-meses_0_szRQhX3Sah.html" target="_blank">FMI: razones del aumento de inflación</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/economia/rutas-nacionales-habilitadas-cobrar-peaje-decreto-gobierno_0_SO6Mxc8yp6.html" target="_blank">Rutas nacionales habilitadas a cobrar peaje</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/inter-miami-lionel-messi-vs-colorado-rapids-mls-horario-verlo-tv-formaciones_0_0CGbb553fz.html" target="_blank">Inter Miami de Messi</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/f1-gp-miami-horarios-entrenamiento-clasificacion-ver-formula-1_0_KpcBQIID3O.html" target="_blank">F1 Gp Miami Horarios Entrenamiento Clasificacion Ver Formula 1 Kpcbqiid3O</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/potro-mano-mano-clarin-duro-aceptar-cuerpo-acompanaba-despedida-djokovic-dio-paz_0_1DJgcyWk4R.html" target="_blank">Potro Mano Mano Clarin Duro Aceptar Cuerpo Acompanaba Despedida Djokovic Dio Paz 1Djgcywk4R</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/renuncia-mascherano-sigue-haciendo-ruido-inter-miami-discusion-sello-final-habla-atmosfera-intensa-messi_0_JH8ZztJ5rV.html" target="_blank">Renuncia Mascherano Sigue Haciendo Ruido Inter Miami Discusion Sello Final Habla Atmosfera Intensa M</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/martin-demichelis-enamora-espana-revolucion-mallorca-equipo-autor-pocas-fechas-salio-descenso_0_xcpTO1nrQr.html" target="_blank">Martin Demichelis Enamora Espana Revolucion Mallorca Equipo Autor Pocas Fechas Salio Descenso Xcpto1</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/murio-oscar-schmidt-leyenda-basquet-mundial-68-anos_0_xqYk4QyxYa.html" target="_blank">Murio Oscar Schmidt Leyenda Basquet Mundial 68 Anos Xqyk4Qyxya</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/flag-football-nuevo-deporte-olimpico-debuta-suramericanos-juventud-panama-2026-formo-seleccion-argentina-componen_0_D9iVnFZDbh.html" target="_blank">Flag Football Nuevo Deporte Olimpico Debuta Suramericanos Juventud Panama 2026 Formo Seleccion Argen</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/marcos-rojo-hablo-expulsion-river-pidio-perdon-racing-quejo-equivoco-piden-cabeza_0_JjvpaWwIva.html" target="_blank">Marcos Rojo Hablo Expulsion River Pidio Perdon Racing Quejo Equivoco Piden Cabeza Jjvpawwiva</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/union-santa-fe-vs-newells-old-boys-vivo-torneo-apertura-liga-profesional-futbol-minuto-minuto_0_5dnh5trk7o.html" target="_blank">Union Santa Fe Vs Newells Old Boys Vivo Torneo Apertura Liga Profesional Futbol Minuto Minuto 5Dnh5T</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/nico-paz-metio-golazo-cabeza-pocas-veces-visto-perdio-complico-serie_0_ajRZqFfB61.html" target="_blank">Nico Paz Metio Golazo Cabeza Pocas Veces Visto Perdio Complico Serie Ajrzqffb61</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/espana-1982-maradona-queria-hablar-final-callo_0_LcBm4LfFoI.html" target="_blank">Espana 1982 Maradona Queria Hablar Final Callo Lcbm4Lffoi</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/deportes/insolita-secuencia-copa-sudamericana-argentino-pego-patadas-misma-jugada-sacaron-amarillas-expulsado_0_JlzaNCb5eT.html" target="_blank">Insolita Secuencia Copa Sudamericana Argentino Pego Patadas Misma Jugada Sacaron Amarillas Expulsado</a></h3>
+                    <div class="meta">
+                        <span>Deportes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <h2 class="section-title" id="fama">Fama</h2>
+        <h2 class="section-title" id="mundo">Mundo (1)</h2>
         <div class="articles-grid">
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/fama/juana-viale-revelo-sigue-mirtha-legrand-ausentarse-grabacion-programa_0_eUrR4k2C1V.html" target="_blank">Juana Viale reveló cómo sigue Mirtha Legrand</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/fama/mirtha-legrand-suspendio-grabacion-programa-problema-salud-detalles_0_meyzNW03Bm.html" target="_blank">Mirtha Legrand suspendió su programa</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/fama/marley-confirmo-romance-famoso-actor-hollywood-trata_0_jrFmKbLjid.html" target="_blank">Marley confirmó romance con actor de Hollywood</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/fama/edith-hermida-hablo-presente-beto-casella-lanzo-dice-contento-creo_0_k9QYFjnelJ.html" target="_blank">Edith Hermida habló sobre Beto Casella</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/mundo/guerra-estados-unidos-israel-iran-vivo-imprevisto-giro-regimen-persa-asegura-cerro-vez-estrecho-ormuz_0_CWjXOBlCth.html" target="_blank">Guerra en Medio Oriente</a></h3>
+                    <div class="meta">
+                        <span>Mundo</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <h2 class="section-title" id="espectaculos">Espectáculos</h2>
+        <h2 class="section-title" id="sociedad">Sociedad (2)</h2>
         <div class="articles-grid">
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/espectaculos/elena-roger-chica-barracas-hizo-estrella-mundial-musical-procesion-iba-dentro-madure-cachetazos_0_ZDmAmHDMsk.html" target="_blank">Elena Roger: la argentina que es estrella mundial</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/espectaculos/val-kilmer-resucitado-inteligencia-artificial-primera-pelicula-postuma_0_dAyNbGIpPq.html" target="_blank">Val Kilmer "resucitado" con IA</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/espectaculos/ricky-martin-campo-polo-llegar-horarios-accesos-shows-argentina_0_1sUuMvdkZ3.html" target="_blank">Ricky Martin llega a la Argentina</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/sociedad/hallan-nueva-droga-adelgazar-diferencia-ozempic-reduce-hambre-quema-calorias_0_lMyBkC7Kn8.html" target="_blank">Hallan Nueva Droga Adelgazar Diferencia Ozempic Reduce Hambre Quema Calorias Lmybkc7Kn8</a></h3>
+                    <div class="meta">
+                        <span>Sociedad</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/sociedad/conmocion-rosario-pareja-estudiantes-aparecio-muerta-cuadras-distancia_0_B7yBgnYKOI.html" target="_blank">Conmocion Rosario Pareja Estudiantes Aparecio Muerta Cuadras Distancia B7Ybgnykoi</a></h3>
+                    <div class="meta">
+                        <span>Sociedad</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <h2 class="section-title" id="ciudades">Ciudades</h2>
+        <h2 class="section-title" id="espectaculos">Espectáculos (5)</h2>
         <div class="articles-grid">
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/ciudades/rompio-cano-agua-recoleta-inundo-cuadra-cortes-transito-zona_0_jNdRaiShDi.html" target="_blank">Robó un cano de agua en Recoleta</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
-            <div class="article-card"><div class="content"><h3><a href="https://www.clarin.com/ciudades/steak-tartare-plato-carne-cruda-puso-moda-restaurantes-portenos_0_01pcg1YRiJ.html" target="_blank">Steak tartare: el plato que puso de moda</a><span class="archivable-badge">Sin archivar</span></h3><p class="meta">Fuente: clarin.com</p></div></div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/espectaculos/ricky-martin-agradecido-buenos-aires-convirtio-campo-argentin-polo-pista-baile-ustedes-vicio_0_79jfRPUIHv.html" target="_blank">Ricky Martin</a></h3>
+                    <div class="meta">
+                        <span>Espectáculos</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/espectaculos/ivan-pineda-considera-nono-hace-demasiados-planes-futuro-razones-verborragia-espiritualidad_0_FvMiYuuE2y.html" target="_blank">Ivan Pineda Considera Nono Hace Demasiados Planes Futuro Razones Verborragia Espiritualidad Fvmiyuue</a></h3>
+                    <div class="meta">
+                        <span>Espectáculos</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/espectaculos/eva-longoria-encontro-trabajos-sonados_0_rrqTbLnPEk.html" target="_blank">Eva Longoria Encontro Trabajos Sonados Rrqtblnpek</a></h3>
+                    <div class="meta">
+                        <span>Espectáculos</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/espectaculos/pedro-alonso-vuelve-berlin-fascinante-ladron-casa-papel-personaje-impresentable-limites-morales_0_gkgRomapSM.html" target="_blank">Pedro Alonso Vuelve Berlin Fascinante Ladron Casa Papel Personaje Impresentable Limites Morales Gkgr</a></h3>
+                    <div class="meta">
+                        <span>Espectáculos</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/espectaculos/val-kilmer-inteligencia-artificial-puede-ganar-oscar_0_pi3Vueav47.html" target="_blank">Val Kilmer Inteligencia Artificial Puede Ganar Oscar Pi3Vueav47</a></h3>
+                    <div class="meta">
+                        <span>Espectáculos</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
         </div>
-
+        <h2 class="section-title" id="fama">Fama (7)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/fama/juana-viale-revelo-sigue-mirtha-legrand-ausentarse-grabacion-programa_0_eUrR4k2C1V.html" target="_blank">Mirtha Legrand</a></h3>
+                    <div class="meta">
+                        <span>Fama</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/fama/mirtha-legrand-suspendio-grabacion-programa-problema-salud-detalles_0_meyzNW03Bm.html" target="_blank">Mirtha Legrand Suspendio Grabacion Programa Problema Salud Detalles Meyznw03Bm</a></h3>
+                    <div class="meta">
+                        <span>Fama</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/fama/furioso-descargo-maria-fernanda-callejon-exmarido-saco-hija_0_zxEmjOAeAM.html" target="_blank">Furioso Descargo Maria Fernanda Callejon Exmarido Saco Hija Zxemjoaeam</a></h3>
+                    <div class="meta">
+                        <span>Fama</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/fama/confesion-mica-viciconte-fabian-cubero-conflicto-nicole-neumann-pide-consejos-hijas_0_9gG2q23eZJ.html" target="_blank">Confesion Mica Viciconte Fabian Cubero Conflicto Nicole Neumann Pide Consejos Hijas 9Gg2Q23Ezj</a></h3>
+                    <div class="meta">
+                        <span>Fama</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/fama/pamela-david-sorprendio-decir-votaria-axel-kicillof-presidente-proximas-elecciones-dificil-elegir_0_yEHzH58dED.html" target="_blank">Pamela David Sorprendio Decir Votaria Axel Kicillof Presidente Proximas Elecciones Dificil Elegir Ye</a></h3>
+                    <div class="meta">
+                        <span>Fama</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/fama/simuladores-federico-d-elia-conto-dia-quedo-preso-engano-policia_0_y6zwqi5tuR.html" target="_blank">Simuladores Federico D Elia Conto Dia Quedo Preso Engano Policia Y6Zwqi5Tur</a></h3>
+                    <div class="meta">
+                        <span>Fama</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/fama/vive-rocio-marengo-diseno-moderno-living-estilo-japandi_0_wcIU2gB2uS.html" target="_blank">Vive Rocio Marengo Diseno Moderno Living Estilo Japandi Wciu2Gb2Us</a></h3>
+                    <div class="meta">
+                        <span>Fama</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="internacional">Internacional (4)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/internacional/misteriosas-aldeas-shein-casas-viene-realmente-ropa-compramos-plataforma-china_0_HukMxWEd7j.html" target="_blank">Misteriosas Aldeas Shein Casas Viene Realmente Ropa Compramos Plataforma China Hukmxwed7J</a></h3>
+                    <div class="meta">
+                        <span>Internacional</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/internacional/comandante-artemis-ii-revelo-paso-bano-espacio-inodoro-maravilloso-problema_0_tg9kC7ASBF.html" target="_blank">Comandante Artemis Ii Revelo Paso Bano Espacio Inodoro Maravilloso Problema Tg9Kc7Asbf</a></h3>
+                    <div class="meta">
+                        <span>Internacional</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/internacional/solo-libro-toda-tienda-exito-hace-anos_0_BPo8jjGZUR.html" target="_blank">Solo Libro Toda Tienda Exito Hace Anos Bpo8Jjgzur</a></h3>
+                    <div class="meta">
+                        <span>Internacional</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/internacional/siglo-naufragio-titanic-subastan-chaleco-salvavidas-sobreviviente_0_ZIs8of3bYT.html" target="_blank">Siglo Naufragio Titanic Subastan Chaleco Salvavidas Sobreviviente Zis8Of3Byt</a></h3>
+                    <div class="meta">
+                        <span>Internacional</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="buena-vida">Buena Vida (1)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/buena-vida/microbiota-sirven-bacterias-viven-dentro-cuerpo_0_xOSwhfjqtr.html" target="_blank">Microbiota Sirven Bacterias Viven Dentro Cuerpo Xoswhfjqtr</a></h3>
+                    <div class="meta">
+                        <span>Buena Vida</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="ciudades">Ciudades (2)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/ciudades/calle-fantasma-paseo-arte-pasaje-lanin-festeja-25-anos_0_hTVn5TwOFZ.html" target="_blank">Calle Fantasma Paseo Arte Pasaje Lanin Festeja 25 Anos Htvn5Twofz</a></h3>
+                    <div class="meta">
+                        <span>Ciudades</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/ciudades/steak-tartare-plato-carne-cruda-puso-moda-restaurantes-portenos_0_01pcg1YRiJ.html" target="_blank">Steak Tartare Plato Carne Cruda Puso Moda Restaurantes Portenos 01Pcg1Yrij</a></h3>
+                    <div class="meta">
+                        <span>Ciudades</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="gourmet">Gourmet (2)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/gourmet/recoleta-25-cafeterias-confiterias-ideal-escudos-aire-libre-precios-promocionales_0_9TPSKw6XFe.html" target="_blank">Recoleta 25 Cafeterias Confiterias Ideal Escudos Aire Libre Precios Promocionales 9Tpskw6Xfe</a></h3>
+                    <div class="meta">
+                        <span>Gourmet</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/gourmet/dia-malbec-15-vinos-marcan-tendencia-quieren-probar_0_ZwPCEApllJ.html" target="_blank">Dia Malbec 15 Vinos Marcan Tendencia Quieren Probar Zwpceapllj</a></h3>
+                    <div class="meta">
+                        <span>Gourmet</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="recetas">Recetas (4)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/recetas/platos-principales/pulled-pork-sandwich_7_N9wDbNE2uN.html" target="_blank">Pulled Pork Sandwich 7 N9Wdbne2Un</a></h3>
+                    <div class="meta">
+                        <span>Recetas</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/recetas/platos-principales/tortilla-papa-chorizo-colorado_7_u7GRyh77F.html" target="_blank">Tortilla Papa Chorizo Colorado 7 U7Gryh77F</a></h3>
+                    <div class="meta">
+                        <span>Recetas</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/recetas/platos-principales/patas-de-pollo-picantes-a-la-parrilla_7_cayX11CCNN.html" target="_blank">Patas De Pollo Picantes A La Parrilla 7 Cayx11Ccnn</a></h3>
+                    <div class="meta">
+                        <span>Recetas</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/recetas/platos-principales/pizza-de-queso-azul--peras-y-rucula_7_C8x9E1WC2.html" target="_blank">Pizza De Queso Azul  Peras Y Rucula 7 C8X9E1Wc2</a></h3>
+                    <div class="meta">
+                        <span>Recetas</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="rural">Rural (6)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/rural/transformar-boom-ganadero-crecimiento-sostenido_0_FBJL6oDZtl.html" target="_blank">Transformar Boom Ganadero Crecimiento Sostenido Fbjl6Odztl</a></h3>
+                    <div class="meta">
+                        <span>Rural</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/rural/inversion-entra-casillero_0_2AB0I5U7qf.html" target="_blank">Inversion Entra Casillero 2Ab0I5U7Qf</a></h3>
+                    <div class="meta">
+                        <span>Rural</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/rural/girasol-cultivo-crecio-mayor-potencial_0_m9o5IQ9NRq.html" target="_blank">Girasol Cultivo Crecio Mayor Potencial M9O5Iq9Nrq</a></h3>
+                    <div class="meta">
+                        <span>Rural</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/rural/zona-semiarida-rodeo-grande-pais-raza-emblematica-sigue-perfeccionando-calidad-carne_0_EivQ4XWk6A.html" target="_blank">Zona Semiarida Rodeo Grande Pais Raza Emblematica Sigue Perfeccionando Calidad Carne Eivq4Xwk6A</a></h3>
+                    <div class="meta">
+                        <span>Rural</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/rural/agrobusiness-supera-vez-industria-manufacturera-brasilena_0_22aeGdUt6l.html" target="_blank">Agrobusiness Supera Vez Industria Manufacturera Brasilena 22Aegdut6L</a></h3>
+                    <div class="meta">
+                        <span>Rural</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/rural/nuevo-estandar-residualidad-selectividad-control-preemergente-cruciferas-trigo-cebada_0_yRWAirbrZn.html" target="_blank">Nuevo Estandar Residualidad Selectividad Control Preemergente Cruciferas Trigo Cebada Yrwairbrzn</a></h3>
+                    <div class="meta">
+                        <span>Rural</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="zonales">Zonales (5)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/zonales/cacho-primer-influencer-argentino-masivo-creado-ia_0_P5rpeasv5j.html" target="_blank">Cacho Primer Influencer Argentino Masivo Creado Ia P5Rpeasv5J</a></h3>
+                    <div class="meta">
+                        <span>Zonales</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/zonales/alfajor-200-kilos-celebrar-festival-gratuito-pasteleros-top-escobar_0_o7qeoe3PBJ.html" target="_blank">Alfajor 200 Kilos Celebrar Festival Gratuito Pasteleros Top Escobar O7Qeoe3Pbj</a></h3>
+                    <div class="meta">
+                        <span>Zonales</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/zonales/alimentaba-basura-conejos-terneros-cabras-detenido-rescataron-200-animales_0_OFwuxQmcwl.html" target="_blank">Alimentaba Basura Conejos Terneros Cabras Detenido Rescataron 200 Animales Ofwuxqmcwl</a></h3>
+                    <div class="meta">
+                        <span>Zonales</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/zonales/gato-elegante-arturo-cumplio-22-anos-festejo-grande_0_7Z2k7JTnaV.html" target="_blank">Gato Elegante Arturo Cumplio 22 Anos Festejo Grande 7Z2K7Jtnav</a></h3>
+                    <div class="meta">
+                        <span>Zonales</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/zonales/coleccion-privada-mariposas-grande-america-gba_0_a1QD0patSa.html" target="_blank">Coleccion Privada Mariposas Grande America Gba A1Qd0Patsa</a></h3>
+                    <div class="meta">
+                        <span>Zonales</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="opinion">Opinión (6)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/opinion/economia-rescate-politica-una-suelta-pesos-cambiar-clima_0_ZsiGfdG31j.html" target="_blank">Economia Rescate Politica Una Suelta Pesos Cambiar Clima Zsigfdg31J</a></h3>
+                    <div class="meta">
+                        <span>Opinión</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/opinion/luvia-telgopor-scioli-carne-burro_0_5OMGxLCYlA.html" target="_blank">Luvia Telgopor Scioli Carne Burro 5Omgxlcyla</a></h3>
+                    <div class="meta">
+                        <span>Opinión</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/opinion/panorama-internacional-inesperado-vietnam-donald-trump_0_gRo4zp7Okg.html" target="_blank">Panorama Internacional Inesperado Vietnam Donald Trump Gro4Zp7Okg</a></h3>
+                    <div class="meta">
+                        <span>Opinión</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/opinion/manuel-vicent-porvenir-actua-golpe-teatro_0_2MUkiVUvc8.html" target="_blank">Manuel Vicent Porvenir Actua Golpe Teatro 2Mukivuvc8</a></h3>
+                    <div class="meta">
+                        <span>Opinión</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/opinion/mentira-digo_0_EeRU1ZFn4z.html" target="_blank">Mentira Digo Eeru1Zfn4Z</a></h3>
+                    <div class="meta">
+                        <span>Opinión</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/opinion/argentina-demora-prisa_0_XbqkF6YIlx.html" target="_blank">Argentina Demora Prisa Xbqkf6Yilx</a></h3>
+                    <div class="meta">
+                        <span>Opinión</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="revista-n">Revista Ñ (4)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/revista-n/gilles-lipovetsky-hoy-artistas-caros-mundo-kitsch_0_WljX3cuVEs.html" target="_blank">Gilles Lipovetsky Hoy Artistas Caros Mundo Kitsch Wljx3Cuves</a></h3>
+                    <div class="meta">
+                        <span>Revista Ñ</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/revista-n/casta-ensobrados-kukas-econochantas-empresaurios-mandriles-lengua-hiriente-poder_0_RQxi6Xgc9Q.html" target="_blank">Casta Ensobrados Kukas Econochantas Empresaurios Mandriles Lengua Hiriente Poder Rqxi6Xgc9Q</a></h3>
+                    <div class="meta">
+                        <span>Revista Ñ</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/revista-n/bafici-2026-julian-radlmaier-cineasta-aleman-comedias-marxistas_0_zyYFvQ2Bkv.html" target="_blank">Bafici 2026 Julian Radlmaier Cineasta Aleman Comedias Marxistas Zyyfvq2Bkv</a></h3>
+                    <div class="meta">
+                        <span>Revista Ñ</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/revista-n/julio-ramon-ribeyro-gran-revancha-derrotas_0_Dq9nNd6zUy.html" target="_blank">Julio Ramon Ribeyro Gran Revancha Derrotas Dq9Nnd6Zuy</a></h3>
+                    <div class="meta">
+                        <span>Revista Ñ</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="nyt-internacional">NYT Internacional (4)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/new-york-times-international-weekly/new-york/proyecto-arco-triunfo-trump-agrada-nadie-propuso_0_m8GoQM7hKU.html" target="_blank">Proyecto Arco Triunfo Trump Agrada Nadie Propuso M8Goqm7Hku</a></h3>
+                    <div class="meta">
+                        <span>NYT Internacional</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/new-york-times-international-weekly/barcos-fantasma-spoofing-buques-estrecho-ormuz-amenaza-aumentar-caos-zona_0_wNVqNHfhdl.html" target="_blank">Barcos Fantasma Spoofing Buques Estrecho Ormuz Amenaza Aumentar Caos Zona Wnvqnhfhdl</a></h3>
+                    <div class="meta">
+                        <span>NYT Internacional</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/new-york-times-international-weekly/hija-kim-jong-conduce-tanque-crecen-versiones-sucesion_0_7Xa9QJ9RHz.html" target="_blank">Hija Kim Jong Conduce Tanque Crecen Versiones Sucesion 7Xa9Qj9Rhz</a></h3>
+                    <div class="meta">
+                        <span>NYT Internacional</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/new-york-times-international-weekly/guerra-oriente-medio-paralizo-gigante-alimentario-asiatico_0_K9oaNe0V6l.html" target="_blank">Guerra Oriente Medio Paralizo Gigante Alimentario Asiatico K9Oane0V6L</a></h3>
+                    <div class="meta">
+                        <span>NYT Internacional</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="policiales">Policiales (2)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/policiales/romina-tejerina-rompe-silencio-despues-20-anos-sigo-convencida-victima_0_OvP1NdgIqC.html" target="_blank">Romina Tejerina Rompe Silencio Despues 20 Anos Sigo Convencida Victima Ovp1Ndgiqc</a></h3>
+                    <div class="meta">
+                        <span>Policiales</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/policiales/triple-crimen-florencio-varela-empezo-parte-final-proceso-extradicion-pequeno-j-detenido-peru_0_rTN0j2eRjk.html" target="_blank">Triple Crimen Florencio Varela Empezo Parte Final Proceso Extradicion Pequeno J Detenido Peru Rtn0J2</a></h3>
+                    <div class="meta">
+                        <span>Policiales</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="relaciones">Relaciones (1)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/relaciones/5-juguetes-sexuales-parecen-heladito-caracol_0_oSep7ZzIRj.html" target="_blank">5 Juguetes Sexuales Parecen Heladito Caracol Osep7Zzirj</a></h3>
+                    <div class="meta">
+                        <span>Relaciones</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="servicios">Servicios (1)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/servicios/plazo-fijo-dolares-rinde-ahora-dejar-us10000-bancos-pagan_0_kyjtK1Lbm2.html" target="_blank">Plazo Fijo Dolares Rinde Ahora Dejar Us10000 Bancos Pagan Kyjtk1Lbm2</a></h3>
+                    <div class="meta">
+                        <span>Servicios</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="tecnologia">Tecnología (1)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/tecnologia/anthropic-encendio-alarma-industria-ia-preocupa-potencial-hackear-sistemas_0_VxhHLI0iY5.html" target="_blank">Anthropic Encendio Alarma Industria Ia Preocupa Potencial Hackear Sistemas Vxhhli0Iy5</a></h3>
+                    <div class="meta">
+                        <span>Tecnología</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="section-title" id="viajes">Viajes (1)</h2>
+        <div class="articles-grid">
+            <div class="article-card">
+                <div class="content">
+                    <h3><a href="https://www.clarin.com/viajes/paraiso-queso-gouda-tradiciones-ancestrales-secretos-toldos-escapada-bonaerense_0_rM7FxO3sig.html" target="_blank">Paraiso Queso Gouda Tradiciones Ancestrales Secretos Toldos Escapada Bonaerense Rm7Fxo3Sig</a></h3>
+                    <div class="meta">
+                        <span>Viajes</span>
+                        <span>📦 No archivado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        <p>Archivo generado automáticamente | <a href="https://rodrigolopezguerra.github.io/News-test/">GitHub Pages</a></p>
-        <p>Contenido de <a href="https://www.clarin.com">clarin.com</a> con fines educativos</p>
+        <p>Free Clarín Archive | 2026-04-18</p>
+        <p>Repo: <a href="https://github.com/rodrigolopezguerra/News-test" target="_blank">rodrigolopezguerra/News-test</a></p>
     </footer>
 </body>
 </html>
