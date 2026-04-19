@@ -10,12 +10,22 @@ RATE_LIMIT_SAVE = 5.0
 MAX_ATTEMPTS = 3
 PENDING_CHECK_INTERVAL = 3600  # 1 hour between pending checks
 
+def is_recent_archive(ts):
+    """Check if timestamp is within last month (30 days)."""
+    from datetime import datetime, timedelta
+    try:
+        arch_date = datetime.strptime(ts[:8], "%Y%m%d")
+        one_month_ago = datetime.now() - timedelta(days=30)
+        return arch_date >= one_month_ago
+    except:
+        return False
+
 def get_archived_from_cdx(url):
     cdx_url = (
         "https://web.archive.org/cdx/search/cdx"
         "?url=" + urllib.parse.quote(url)
         + "&output=json&limit=1&filter=statuscode=200"
-        + "&from=2026&to=2026"
+        + "&closest=2026"
     )
     try:
         req = urllib.request.Request(cdx_url, headers={"User-Agent": "Mozilla/5.0 FreeClarinsBot/1.0"})
@@ -23,7 +33,10 @@ def get_archived_from_cdx(url):
             data = json.loads(resp.read().decode())
             if len(data) > 1:
                 ts = data[1][1]
-                return "https://web.archive.org/web/" + ts + "/" + url, ts
+                if is_recent_archive(ts):
+                    return "https://web.archive.org/web/" + ts + "/" + url, ts
+                else:
+                    print("      (archivo de hace mas de 1 mes, ignorando)")
     except:
         pass
     return None, None
