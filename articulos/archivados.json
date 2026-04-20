@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-04-20T12:57:59.727397",
-  "total": 203,
+  "timestamp": "2026-04-20T13:24:41.219050",
+  "total": 204,
   "results": [
     {
       "original_url": "https://www.clarin.com/arq/inmobiliario/comprar-pozo-tendencias-mercado-inmobiliario_0_CjDxWxzJE7.html",
@@ -1016,8 +1016,11 @@
       "original_url": "https://www.clarin.com/espectaculos/faltaba-ahora-moria-casan-propio-musical_0_EH3OYOfuXl.html",
       "wayback_url": "https://web.archive.org/web/20260420125544/https://www.clarin.com/espectaculos/faltaba-ahora-moria-casan-propio-musical_0_EH3OYOfuXl.html",
       "timestamp": "20260420125544"
+    },
+    {
+      "original_url": "https://www.clarin.com/astrologia/hoy-sol-entra-tauro-energia-trae-cambia-vinculos-decisiones_0_5Q10JOZA7d.html",
+      "wayback_url": "https://web.archive.org/web/20260420125530/https://www.clarin.com/astrologia/hoy-sol-entra-tauro-energia-trae-cambia-vinculos-decisiones_0_5Q10JOZA7d.html",
+      "timestamp": "20260420125530"
     }
-  ],
-  "pending": [],
-  "failed": []
+  ]
 }
