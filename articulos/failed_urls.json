@@ -6,7 +6,7 @@
   },
   "https://www.clarin.com/deportes/espana-1982-maradona-queria-hablar-final-callo_0_LcBm4LfFoI.html": {
     "failed_at": "2026-04-18T17:37:54.117677",
-    "attempts": 1,
+    "attempts": 2,
     "reason": "error"
   },
   "https://www.clarin.com/deportes/flag-football-nuevo-deporte-olimpico-debuta-suramericanos-juventud-panama-2026-formo-seleccion-argentina-componen_0_D9iVnFZDbh.html": {
@@ -96,7 +96,7 @@
   },
   "https://www.clarin.com/fama/vive-guillermo-francella-cocina-lujo-balcon-vista-parque_0_RVR7C1EBAx.html": {
     "failed_at": "2026-04-18T17:37:54.117677",
-    "attempts": 1,
+    "attempts": 2,
     "reason": "error"
   },
   "https://www.clarin.com/gourmet/dia-malbec-15-vinos-marcan-tendencia-quieren-probar_0_ZwPCEApllJ.html": {
@@ -156,12 +156,12 @@
   },
   "https://www.clarin.com/new-york-times-international-weekly/barcos-fantasma-spoofing-buques-estrecho-ormuz-amenaza-aumentar-caos-zona_0_wNVqNHfhdl.html": {
     "failed_at": "2026-04-18T17:37:54.117677",
-    "attempts": 1,
+    "attempts": 2,
     "reason": "error"
   },
   "https://www.clarin.com/new-york-times-international-weekly/guerra-oriente-medio-paralizo-gigante-alimentario-asiatico_0_K9oaNe0V6l.html": {
     "failed_at": "2026-04-18T17:37:54.117677",
-    "attempts": 1,
+    "attempts": 2,
     "reason": "error"
   },
   "https://www.clarin.com/new-york-times-international-weekly/new-york/proyecto-arco-triunfo-trump-agrada-nadie-propuso_0_m8GoQM7hKU.html": {
@@ -291,7 +291,7 @@
   },
   "https://www.clarin.com/zonales/coleccion-privada-mariposas-grande-america-gba_0_a1QD0patSa.html": {
     "failed_at": "2026-04-18T17:37:54.117677",
-    "attempts": 1,
+    "attempts": 2,
     "reason": "error"
   },
   "https://www.clarin.com/zonales/gato-elegante-arturo-cumplio-22-anos-festejo-grande_0_7Z2k7JTnaV.html": {
@@ -306,6 +306,624 @@
   },
   "https://www.clarin.com/zonales/puede-pagar-peaje-autopista-oeste-sistema-contactless_0_ES9vyBK5h4.html": {
     "failed_at": "2026-04-18T17:37:54.117677",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/brandstudio/presbicia-trata-hoy-afeccion-aparece-despues-40_0_QI6r1hce1P.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/ciudades/produjo-incendio-edificio-libertad-armada-65-personas-evacuadas_0_td5nAVudwC.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/deportes/braian-suarez-duro-round-invicto-ben-whittaker-golpe-destructor-desemboco-nocaut-expres-noche-liverpool_0_UHaFGhijTu.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/deportes/colorado-rapids-vs-inter-miami-lionel-messi-mls-vivo-hora-probables-formaciones-ver-directo_0_6Etcl9uTHp.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/deportes/convocados-boca-superclasico-once-elegidos-ubeda-jugar-river-monumental_0_GfcoiwN5Vw.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/deportes/convocados-river-superclasico-colombiano-castano-ira-banco-indulto-galoppo_0_kIKMAAHiFS.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/deportes/enzo-fernandez-regreso-olvido-volvio-partidos-suspension-chelsea-perdio-manchester-united-susto_0_hVViWF4aop.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/deportes/gimnasia-plata-vs-estudiantes-rio-cuarto-torneo-apertura-vivo-hora-probables-formaciones-ver-directo_0_Qq1Mb8RfWR.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/deportes/independiente-vs-defensa-justicia-torneo-apertura-vivo-hora-probables-formaciones-ver-directo_0_jcHwJPAVWF.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/deportes/murio-oscar-schmidt-leyenda-basquet-mundial-68-anos_0_xqYk4QyxYa.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/economia/caputo-fmi-entretelones-reunion-georgieva-trama-lograron-millones-garantias-multilaterales_0_H8fAmEIeu9.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/economia/solo-provincias-crearon-empleo-enero-100000-puestos-perdieron-resto-pais_0_zDO5REGMT4.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/economia/stablecoins-ganan-terreno-america-latina-consolidan-nueva-via-operar-dolares_0_uBRAE9wM8e.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/fama/magui-bravi-confirmo-separacion-octavio-cattaneo-mujeres-hacemos-duelo_0_BEXFoT8ssZ.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/humor/maitena/maitena-24749": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/internacional/damas-yogur-fenomeno-social-ayudar-personas-solas-japon_0_syLA0miKew.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/internacional/murio-actriz-nadia-fares-57-anos-accidente-piscina-paris_0_IowJPnRMOA.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/opinion/malas-noticias-cristina-buscan-pueden-tapar-montana-mugre-afa_0_dMHySH50fN.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/policiales/romina-tejerina-rompe-silencio-despues-20-anos-sigo-convencida-victima_0_OvP1NdgIqC.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/politica/cruce-menem-villarruel-vice-acusada-populista-jefe-diputados-favorecer-casta_0_LiPJIgPjO1.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/politica/gobierno-envio-proyecto-modifica-ley-emergencia-discapacidad-principales-cambios_0_t0Id3Difck.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/recetas/platos-principales/pulled-pork-sandwich_7_N9wDbNE2uN.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/revista-n/casta-ensobrados-kukas-econochantas-empresaurios-mandriles-lengua-hiriente-poder_0_RQxi6Xgc9Q.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/rural/agrobusiness-supera-vez-industria-manufacturera-brasilena_0_22aeGdUt6l.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/sociedad/gobierno-ordeno-desalojar-trabajadores-viven-historico-complejo-turistico-chapadmalal_0_VSzqbTgehX.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/videos/hace-dulce-leche-argentino_3_jGWXdljrnm.html": {
+    "attempts": 1
+  },
+  "https://www.clarin.com/astrologia/horoscopo-semanal-20-26-abril-impulsos-convierten-decisiones_0_mMHdyjNvjv.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/autos/kei-cars-formula-japonesa-tener-autos-practicos-eficientes-baratos_0_7IhlDgAjQG.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/ciudades/fuerte-choque-colectivo-auto-9-julio-santa-fe-heridos_0_CAhK9JGtOK.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/ciudades/viajar-mal-convirtio-rutina-estres-incertidumbre-horas-perdidas-fallas-demoras-colectivos-trenes_0_i01ccKmEyo.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/cultura/multiverso-borges-ciencias-exactas-ballet-musica-autor-imagino_0_9yw3rF37Nf.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/1x1-boca-victoria-river-superclasico-leandro-paredes-abanderado-equipo-fisuras_0_ykSn6mXZSo.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/1x1-river-superclasico-boca-beltran-mejor-tarde-puntos-flojos-aplazos_0_bMoIrY6Gjn.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/agostina-hein-ganadora-juegos-suramericanos-juventud-despidio-panama-2026-novena-medalla-dorada_0_PwGwbOtp4D.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/aldosivi-vs-racing-vivo-hora-juegan-ver-partido-torneo-apertura_0_j0HAAkYNHz.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/bayern-munich-modo-imperial-consagro-campeon-bundesliga-estiro-dominio-historico-alemania_0_YIlu8TTWiQ.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/claudio-ubeda-infalible-river-gano-lugar-selecto-historia-dt-boca_0_xC2NRwQ0uK.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/comentario-racista-expulsaron-companero-lionel-messi-inter-miami_0_d1IvyJyz0T.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/escandalo-superclasico-paraguay-tiros-heridos-disturbios-policia-suspension-partido_0_nzSHAnEjWG.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/golpazo-seleccion-sub-17-placente-expulsados-goleada-colombia-quedo-sudamericano_0_0pKAzmsrGB.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/jugada-final-polemica-superclasico-reclamo-penal-river-insultos-hinchas-chiqui-tapia-monumental_0_MDlkVaaxiR.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/lesion-driussi-primer-dolor-cabeza-coudet-superclasico-river-boca-monumental_0_ojdbd7Dmaj.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/manchester-city-vs-arsenal-vivo-escolta-recibe-lider-partido-decisivo-premier-league-2026_0_YIc0mtZhOV.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/paredes-angelado-boca-paciente-inteligente-quedo-superclasico-river-demasiado-liviano_0_dCLG6gWi3A.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/racing-puede-salir-pozo-gustavo-costas-enojadisimo-mal-partido-desastroso-hicimos_0_4tPbSwsJ4M.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/river-vs-boca-vivo-torneo-apertura-hora-juegan-posibles-formaciones-ver-superclasico_0_6jT4Y1h72t.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/santiago-mangoni-volvio-triunfo-tc-mil-dias-espera-carrera-final-caotico_0_ro569uWKXs.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/tragedia-rally-sudamericano-murio-espectador-despiste-auto-mina-clavero_0_qvjLPecyip.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/uruguay-1930-caso-cherro-renuncia-dirigente-tiempo-dio-razon_0_Y1ldJF0jAJ.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/deportes/var-superclasico-lupa-antecedentes-hector-paletta-reavivan-polemica-river-vs-boca_0_lHtMb4rGWe.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/economia/18-mejores-meses-fabrica-cerrada-cierra_0_iEYGHy9mnA.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/economia/cierra-principal-fabrica-tia-maruca-marca-historica-popular-galletitas_0_kb2ETZcJuY.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/economia/consumo-leve-mejora-sigue-rojo-llegara-recuperacion_0_3XhDbljUNe.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/economia/flexibilizacion-encajes-apuesta-bajen-tasas-dudas-pronta-reactivacion-credito_0_rdbM6M1eTK.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/economia/fuertes-criticas-wall-street-journal-cambio-radical-milei-acusaciones-corrupcion-problemas-legales-malestar-economico_0_KL4KGtwPMa.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/economia/ganadores-perdedores-economia-libertaria_0_cZgdCRsIAU.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/economia/luciano-laspina-reformas-estructurales-argentina-necesita-acuerdos-politicos-basicos-construir-confianza_0_kieCO2EtUF.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/economia/pescado-raul-alfajor-medio-crisis-agota-stocks-kioscos_0_cZTEHOiK6P.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/economia/rigi-herramienta-suma-promesas-inversion-us-78000-millones_0_W5KrJ0MUyg.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/economia/sturzenegger-tironea-caputo-pettovello-ajuste-economia-capital-humano_0_0z2LDiltQs.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/espectaculos/aventuras-carola-reyna-boy-olmi-madrid-teatro-amigos-enamoramiento-ciudad-arropa_0_hambMDi7ib.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/espectaculos/esposa-asesino-serie-britanica-capitulos-maratonear-culpa-matrimonio-perfecto-borde-abismo_0_oXNYrekOXp.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/espectaculos/faltaba-ahora-moria-casan-propio-musical_0_EH3OYOfuXl.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/espectaculos/huele-espiritu-adolescente-obra-cruza-superclasico-nirvana-familia-limite_0_wpVUIhmH0M.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/espectaculos/monica-cahen-danvers-animo-cantar-91-anos-junto-hija-sandra-mihanovich-campina-san-pedro_0_IYNwirbjRZ.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/espectaculos/murio-luis-brandoni-adios-maestro-actuacion-enseno-dar-clases-talento-compromiso-oficio-dignidad-entrega-minuto-final_0_LU9IqPaXcQ.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/espectaculos/murio-luis-brandoni-despedida-redes-reconocida-figura-escena-nacional-dia-triste_0_kPxQXqdkFu.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/espectaculos/murio-maria-nieves-leyenda-tango-argentino_0_Y1MwKoiwVR.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/espectaculos/rating-sabado-ex-gran-hermano-pudieron-mesaza-mirtha-mirtha_0_TAWkzrAehe.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/fama/5-canciones-populares-lali-esposito-agregar-playlist_0_8ZJ4DICxVy.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/fama/andrea-boca-reaparecio-publicamente-fuerte-accidente-salida-gran-hermano-dientes-flojos_0_VHnt27RBda.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/fama/anna-nn-meses-ricardo-biasotti-recordo-inicio-conflicto-andrea-boca-hija_0_stCCraXBD8.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/fama/betiana-blum-revelo-critica-hizo-moria-casan-obra-provoco-furia-quise-aportar-mejorar_0_s2XJxHZoIO.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/fama/daniela-celis-descuido-vestido-vivo-mal-bombacha_0_jqHzPtGMcQ.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/fama/julieta-poggio-hablo-filtro-sexualidad-vinculo-marcos-ginocchio-pelea-china-suarez-cobro_0_dmcGnq9Tcx.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/fama/monica-farro-operada-urgencia-paso-estado-salud_0_zBh1EQbF8f.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/fama/oriana-sabatini-cumpleanos-especial-sentido-mensaje-paulo-dybala_0_txiyPdlXXS.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/fama/vive-rusherking-piscina-iluminada-habitaciones-techo-nubes_0_T0ZbVopY3U.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/fama/yanina-latorre-expuso-periodista-nicolas-luaces-coqueteo-hincha-boca-mensaje-envio-redes_0_UB5jlTIqHQ.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/gourmet/canitas-nueva-pizzeria-cocinero-coco-carreno-estudiar-napoles-llegar-receta-perfecta_0_AJrh7tJB7p.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/informacion-general/talleres-orientacion-laboral-gratuitos-alternativa-solidaria-conseguir-empleo_0_ePjUkqsjew.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/internacional/25-anos-presa-salio-libertad-volvieron-atrapar-video-persecucion-caballo_0_siTlEcj6qp.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/internacional/caida-biblioteca-alejandria-fin-mayor-centro-cultural-mundo-antiguo_0_La6eZI1xtt.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/internacional/genio-sombras-henrietta-swan-leavitt-astronoma-encontro-forma-medir-universo_0_ZgQ6dJTgeL.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/internacional/grabaron-inquietante-sonido-llamarada-salio-sol_0_Rs1sjgKXxQ.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/mundo/donald-trump-anuncio-delegacion-estados-unidos-vuelve-pakistan-negociar-amenazo-destruir-iran-llegan-acuerdo-acabo-amabilidad_0_dJVdpdluwb.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/mundo/guerra-estados-unidos-israel-iran-vivo-imposible-pasen-estrecho-ormuz-podemos-advirtio-iran-cuenta-regresiva-final-tregua-trump_0_VYmMTrzRSt.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/mundo/horror-luisiana-autor-tiroteo-murieron-chicos_0_JHwiYrHSLn.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/mundo/horror-luisiana-chicos-murieron-tiroteo-masivo_0_d2Dora771x.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/mundo/papa-angola-pidio-tregua-libano-vuelva-permanente-oriente-medio_0_8htJ7As4sG.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/mundo/viaje-milei-israel-confirman-noviembre-vuelo-directo-buenos-aires-tel-aviv_0_lCeOaebO8N.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/opinion/costos-guerra_0_OyiKI5WNsv.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/opinion/decision-manos-karina_0_f2wmT7Kbi9.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/opinion/espanoles-democracia_0_4kC9jUo4Qx.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/opinion/estado-libertario-interna-apunto-karina-coincidencia-milei-kicillof_0_ClyMaqIaQo.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/opinion/lecciones-sabiduria-104-anos_0_gMrJkMxc1O.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/opinion/legado-francisco-ano-muerte_0_U785mWZcdT.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/opinion/nuevo-fantasma-democracia-autoritaria_0_5c1JlMy7Xe.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/opinion/senal-alarma-nadie-atendiendo_0_fTcERwxpZn.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/opinion/topo-adorni_0_JEKPCCMTjO.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/policiales/detuvieron-adolescentes-robaron-moto-belgrano-escaparon-general-paz-chocaron-auto-camino-negro_0_F9yCayt2jS.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/policiales/perdes-roban-celular-prevenirlo-pasos-seguir-despues-hurto_0_sJoaAOT9ro.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/ahora-sabe-javier-milei-nervioso-gobierno-exploran-caminos-surfear-tormenta_0_97uNJK6cvn.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/banco-cerro-denuncio-cuentas-10000-millones-novia-toviggino-plata-pago-afa_0_eU9vYHiWUx.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/carlos-bianco-debio-operado-urgencia-barcelona-acompanaba-kicillof_0_ACqq65UPz4.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/caso-adorni-contratos-empresa-grandio-aprobo-jefe-gabinete-tv-publica_0_pYuioljY9Y.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/causas-complican-chiqui-tapia-toviggino-justicia_0_ot4RMAi2ut.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/congreso-pie-guerra-mauricio-candidato-nueva-interna-pj_0_qqXTdamyK1.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/corrupcion-afa-docena-autos-empresas-toviggino-mansion-pilar_0_XMt2waClym.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/corrupcion-afa-pedido-detencion-tapia-toviggino-revela-multimillonarias-maniobras-financieras-patrimoniales_0_GIufV39hFX.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/costo-adorni-gobierno-pierde-apoyo-politico-votos-eliminar-paso_0_x6pRMT9ZK3.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/cristian-ritondo-presencia-manuel-adorni-congreso-va-show-ayuda_0_cae1nCm1KV.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/interna-gobierno-peor-momento-karina-santiago-caputo-paran-milei-encierra_0_7le4DUF9qT.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/javier-milei-volvio-subirse-escenario-canto-libre-ensayo-ceremonia-dia-independencia-israel_0_UhLXC3CCNz.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/milei-profundiza-alianza-militar-estados-unidos-israel-portaaviones-ejercicios-militares-compra-fusiles_0_J5r83bQ1VA.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/milei-ratifico-alianza-netanyahu-puso-fecha-primer-vuelo-directo-tel-aviv_0_XI0FT3pbVL.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/politica/nueva-encuesta-electoral-milei-arriba-kicillof-sorpresa-tercer-lugar_0_pMcNLTEchB.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/recetas/entradas/aceitunas-a-la-escolana_7_JNRqlFWlZ.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/recetas/platos-principales/ensalada-con-palta_7_XL69VtxURs.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/recetas/platos-principales/fugazzeta_7_wHQ-tGu9Z.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/recetas/platos-principales/pechito-de-cerdo-con-barbacoa_7_TP0t9yZT.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/revista-n/comienza-feria-libro-2026-leer-ilumine_0_skI1vmisxf.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/revista-n/gabriel-valansi-forma-pixel_0_pOT3nDANaH.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/rural/carnes-alternativas-patagonia-noa-burro-llama-piden-pista_0_2TYTGNJiCI.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/sociedad/alarma-pampa-alumno-amenazo-matar-tiros-docentes-escuela-encontraron-arsenal-casa_0_Ue6jn20ynA.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/sociedad/brasil-mujer-argentina-hijo-murieron-choque-frontal-camion_0_xfgwfOKXhB.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/sociedad/cafe-leche-pan-manteca-mismo_0_SbfsP5CeU4.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/sociedad/guilherme-peixoto-plaza-mayo-cura-dj-toca-multitud-homenaje-papa-francisco_0_I2rsJeEuZ1.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/sociedad/jubilado-intento-separar-perros-peleaban-mordieron-murio-desangrado_0_xqLgUTiDJ0.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/tecnologia/meta-crea-clon-digital-mark-zuckerberg-ia-replica-voz-gestos-decisiones_0_gHkYYv9lRi.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/viajes/playas-increible-circuito-descubrir-sur-italia-bicicleta-pueblos-medievales-cocina-casera_0_9dIq1Ken8T.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/viva/bella-otero-bailarina-ardiente-misteriosa-senalada-amante-presidente-argentino_0_tjVXkKCKBe.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/viva/masajes-corporales-importantes-beneficios_0_jWseSHCFgZ.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
+    "attempts": 1,
+    "reason": "error"
+  },
+  "https://www.clarin.com/viva/regreso-triunfal-buen-gusto-tiempos-metricas-influencers_0_d5uoinlOZl.html": {
+    "failed_at": "2026-04-20T09:02:06.224405",
     "attempts": 1,
     "reason": "error"
   }
