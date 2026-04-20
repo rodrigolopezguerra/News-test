@@ -343,10 +343,14 @@
     "attempts": 1
   },
   "https://www.clarin.com/economia/solo-provincias-crearon-empleo-enero-100000-puestos-perdieron-resto-pais_0_zDO5REGMT4.html": {
-    "attempts": 1
+    "failed_at": "2026-04-20T09:37:19.794628",
+    "attempts": 1,
+    "reason": "Can not save 'https://www.clarin.com/economia/solo-provincias-crearon-empleo-enero-100000-puestos-pe"
   },
   "https://www.clarin.com/economia/stablecoins-ganan-terreno-america-latina-consolidan-nueva-via-operar-dolares_0_uBRAE9wM8e.html": {
-    "attempts": 1
+    "failed_at": "2026-04-20T09:37:19.794628",
+    "attempts": 1,
+    "reason": "Can not save 'https://www.clarin.com/economia/stablecoins-ganan-terreno-america-latina-consolidan-nu"
   },
   "https://www.clarin.com/fama/magui-bravi-confirmo-separacion-octavio-cattaneo-mujeres-hacemos-duelo_0_BEXFoT8ssZ.html": {
     "attempts": 1
@@ -428,9 +432,9 @@
     "reason": "error"
   },
   "https://www.clarin.com/deportes/aldosivi-vs-racing-vivo-hora-juegan-ver-partido-torneo-apertura_0_j0HAAkYNHz.html": {
-    "failed_at": "2026-04-20T09:02:06.224405",
-    "attempts": 1,
-    "reason": "error"
+    "failed_at": "2026-04-20T09:22:02.875880",
+    "attempts": 2,
+    "reason": "Tried 1 times but failed to save and retrieve the archive for https://www.clarin.com/deportes/aldosi"
   },
   "https://www.clarin.com/deportes/bayern-munich-modo-imperial-consagro-campeon-bundesliga-estiro-dominio-historico-alemania_0_YIlu8TTWiQ.html": {
     "failed_at": "2026-04-20T09:02:06.224405",
@@ -553,24 +557,24 @@
     "reason": "error"
   },
   "https://www.clarin.com/economia/sturzenegger-tironea-caputo-pettovello-ajuste-economia-capital-humano_0_0z2LDiltQs.html": {
-    "failed_at": "2026-04-20T09:02:06.224405",
+    "failed_at": "2026-04-20T09:37:19.794628",
     "attempts": 1,
-    "reason": "error"
+    "reason": "Can not save 'https://www.clarin.com/economia/sturzenegger-tironea-caputo-pettovello-ajuste-economia"
   },
   "https://www.clarin.com/espectaculos/aventuras-carola-reyna-boy-olmi-madrid-teatro-amigos-enamoramiento-ciudad-arropa_0_hambMDi7ib.html": {
-    "failed_at": "2026-04-20T09:02:06.224405",
+    "failed_at": "2026-04-20T09:37:19.794628",
     "attempts": 1,
-    "reason": "error"
+    "reason": "Can not save 'https://www.clarin.com/espectaculos/aventuras-carola-reyna-boy-olmi-madrid-teatro-amig"
   },
   "https://www.clarin.com/espectaculos/esposa-asesino-serie-britanica-capitulos-maratonear-culpa-matrimonio-perfecto-borde-abismo_0_oXNYrekOXp.html": {
-    "failed_at": "2026-04-20T09:02:06.224405",
+    "failed_at": "2026-04-20T09:37:19.794628",
     "attempts": 1,
-    "reason": "error"
+    "reason": "Can not save 'https://www.clarin.com/espectaculos/esposa-asesino-serie-britanica-capitulos-maratonea"
   },
   "https://www.clarin.com/espectaculos/faltaba-ahora-moria-casan-propio-musical_0_EH3OYOfuXl.html": {
-    "failed_at": "2026-04-20T09:02:06.224405",
+    "failed_at": "2026-04-20T09:37:19.794628",
     "attempts": 1,
-    "reason": "error"
+    "reason": "Can not save 'https://www.clarin.com/espectaculos/faltaba-ahora-moria-casan-propio-musical_0_EH3OYOf"
   },
   "https://www.clarin.com/espectaculos/huele-espiritu-adolescente-obra-cruza-superclasico-nirvana-familia-limite_0_wpVUIhmH0M.html": {
     "failed_at": "2026-04-20T09:02:06.224405",
@@ -688,9 +692,9 @@
     "reason": "error"
   },
   "https://www.clarin.com/mundo/guerra-estados-unidos-israel-iran-vivo-imposible-pasen-estrecho-ormuz-podemos-advirtio-iran-cuenta-regresiva-final-tregua-trump_0_VYmMTrzRSt.html": {
-    "failed_at": "2026-04-20T09:02:06.224405",
-    "attempts": 1,
-    "reason": "error"
+    "failed_at": "2026-04-20T09:22:02.875880",
+    "attempts": 2,
+    "reason": "Tried 1 times but failed to save and retrieve the archive for https://www.clarin.com/mundo/guerra-es"
   },
   "https://www.clarin.com/mundo/horror-luisiana-autor-tiroteo-murieron-chicos_0_JHwiYrHSLn.html": {
     "failed_at": "2026-04-20T09:02:06.224405",
@@ -773,9 +777,9 @@
     "reason": "error"
   },
   "https://www.clarin.com/politica/banco-cerro-denuncio-cuentas-10000-millones-novia-toviggino-plata-pago-afa_0_eU9vYHiWUx.html": {
-    "failed_at": "2026-04-20T09:02:06.224405",
-    "attempts": 1,
-    "reason": "error"
+    "failed_at": "2026-04-20T09:22:02.875880",
+    "attempts": 2,
+    "reason": "Can not save 'https://www.clarin.com/politica/banco-cerro-denuncio-cuentas-10000-millones-novia-tovi"
   },
   "https://www.clarin.com/politica/carlos-bianco-debio-operado-urgencia-barcelona-acompanaba-kicillof_0_ACqq65UPz4.html": {
     "failed_at": "2026-04-20T09:02:06.224405",
@@ -798,9 +802,9 @@
     "reason": "error"
   },
   "https://www.clarin.com/politica/corrupcion-afa-docena-autos-empresas-toviggino-mansion-pilar_0_XMt2waClym.html": {
-    "failed_at": "2026-04-20T09:02:06.224405",
-    "attempts": 1,
-    "reason": "error"
+    "failed_at": "2026-04-20T09:22:02.875880",
+    "attempts": 2,
+    "reason": "Can not save 'https://www.clarin.com/politica/corrupcion-afa-docena-autos-empresas-toviggino-mansion"
   },
   "https://www.clarin.com/politica/corrupcion-afa-pedido-detencion-tapia-toviggino-revela-multimillonarias-maniobras-financieras-patrimoniales_0_GIufV39hFX.html": {
     "failed_at": "2026-04-20T09:02:06.224405",
@@ -808,9 +812,9 @@
     "reason": "error"
   },
   "https://www.clarin.com/politica/costo-adorni-gobierno-pierde-apoyo-politico-votos-eliminar-paso_0_x6pRMT9ZK3.html": {
-    "failed_at": "2026-04-20T09:02:06.224405",
-    "attempts": 1,
-    "reason": "error"
+    "failed_at": "2026-04-20T09:22:02.875880",
+    "attempts": 2,
+    "reason": "Can not save 'https://www.clarin.com/politica/costo-adorni-gobierno-pierde-apoyo-politico-votos-elim"
   },
   "https://www.clarin.com/politica/cristian-ritondo-presencia-manuel-adorni-congreso-va-show-ayuda_0_cae1nCm1KV.html": {
     "failed_at": "2026-04-20T09:02:06.224405",
@@ -908,14 +912,14 @@
     "reason": "error"
   },
   "https://www.clarin.com/viajes/playas-increible-circuito-descubrir-sur-italia-bicicleta-pueblos-medievales-cocina-casera_0_9dIq1Ken8T.html": {
-    "failed_at": "2026-04-20T09:02:06.224405",
-    "attempts": 1,
-    "reason": "error"
+    "failed_at": "2026-04-20T09:22:02.875880",
+    "attempts": 2,
+    "reason": "Can not save 'https://www.clarin.com/viajes/playas-increible-circuito-descubrir-sur-italia-bicicleta"
   },
   "https://www.clarin.com/viva/bella-otero-bailarina-ardiente-misteriosa-senalada-amante-presidente-argentino_0_tjVXkKCKBe.html": {
-    "failed_at": "2026-04-20T09:02:06.224405",
-    "attempts": 1,
-    "reason": "error"
+    "failed_at": "2026-04-20T09:22:02.875880",
+    "attempts": 2,
+    "reason": "Can not save 'https://www.clarin.com/viva/bella-otero-bailarina-ardiente-misteriosa-senalada-amante-"
   },
   "https://www.clarin.com/viva/masajes-corporales-importantes-beneficios_0_jWseSHCFgZ.html": {
     "failed_at": "2026-04-20T09:02:06.224405",
