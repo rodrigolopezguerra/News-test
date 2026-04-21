@@ -1,6 +1,4 @@
 {
-  "timestamp": "2026-04-20T13:24:41.219050",
-  "total": 294,
   "results": [
     {
       "original_url": "https://www.clarin.com/arq/inmobiliario/comprar-pozo-tendencias-mercado-inmobiliario_0_CjDxWxzJE7.html",
@@ -1472,5 +1470,6 @@
       "wayback_url": "https://web.archive.org/web/20260421113058/https://www.clarin.com/zonales/seguiran-julio-demoras-ramal-tren-roca_0_jf6ZFNvPL1.html",
       "timestamp": "20260421113058"
     }
-  ]
+  ],
+  "timestamp": "2026-04-21T16:39:25.766615"
 }
