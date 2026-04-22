@@ -1,0 +1,441 @@
+{
+  "success": [],
+  "failed": [],
+  "cycles": [
+    {
+      "date": "2026-04-21 22:01 UTC",
+      "total": 107,
+      "success": [],
+      "failed": [
+        {
+          "url": "https://www.clarin.com/deportes/escandalo-serie-italia-investigacion-judicial-destapo-red-prostitucion-participaban-futbolistas-empresarios_0_jeKrQ7vwOF.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/deportes/inter-milan-vs-1907-nico-paz-vivo-copa-italia-hora-ver-vivo_0_NgLioHx0mJ.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/deportes/river-secuelas-superclasico-derrota-golpeo-coudet-dejo-desnudo-limitaciones-plantel-dejo-gallardo_0_Qag9935h5k.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/deportes/topadora-agostina-hein-joya-deporte-argentino-encamina-finalista-olimpica-puro-record_0_vuhidhJErf.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/deportes/river-confirmo-nueva-lesion-sebastian-driussi-trae-dolor-cabeza-chacho-coudet_0_lyw9TGS7KX.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/deportes/san-lorenzo-vs-velez-vivo-hora-juegan-ver-partido-clave-torneo-apertura-2026_0_892BMd90xD.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/economia/apenas-dias-despues-vender-serenisima-murio-jose-mastellone-ultimo-hijo-fundador-empresa_0_8IPTrugZi4.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/economia/desaparece-garbarino-quiebra-cierran-ultimos-locales-justicia-avanza-venta-bienes_0_HabcovZZad.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/economia/automotriz-stellantis-arma-negocio-autos-chinos-argentina_0_qTIv8hOKSJ.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/economia/caputo-bausili-inversores-eeuu-dudas-mercado-medidas-clave_0_ibO17fAsnR.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/economia/efecto-arrastre-inflacion-mes-reflejara-suba-nafta-pone-piso-alto-indice-mayo_0_5XX9T7SizO.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/economia/exportaciones-marcaron-nuevo-record-importaciones-cayeron-73-primer-trimestre_0_tZ0nAH5tfr.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/economia/milei-cambiara-economia-argentina-economia-argentina-cambiara-milei_0_d9W9FjSHkT.html",
+          "error": "Traceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 169, in _new_conn\n    conn = connection.create_connection(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 96, in create_connection\n    raise err\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 86, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 700, in urlopen\n    httplib_response = self._make_request(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 383, in _make_request\n    self._validate_conn(conn)\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 1015, in _validate_conn\n    conn.connect()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 353, in connect\n    conn = self._new_conn()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 181, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffff8b14d460>: Failed to establish a new connection: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 612, in send\n    resp = conn.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  [Previous line repeated 2 more times]\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 756, in urlopen\n    retries = retries.increment(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/retry.py\", line 576, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/economia/milei-cambiara-economia-argentina-economia-argentina-cambiara-milei_0_d9W9FjSHkT.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff8b14d460>: Failed to establish a new connection: [Errno 111] Connection refused'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/opc/.local/bin/waybackpy\", line 6, in <module>\n    sys.exit(main())\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/cli.py\", line 426, in main\n    save_api.save()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 210, in save\n    self.get_save_request_headers()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 89, in get_save_request_headers\n    self.response = session.get(self.request_url, headers=self.request_headers)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 557, in get\n    return self.request('GET', url, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 544, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 657, in send\n    r = adapter.send(request, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 689, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/economia/milei-cambiara-economia-argentina-economia-argentina-cambiara-milei_0_d9W9FjSHkT.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff8b14d460>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        },
+        {
+          "url": "https://www.clarin.com/espectaculos/boveda-musical-prince-sigue-dando-frutos-anos-muerte-lanzo-nueva-cancion_0_mQOU6rFCve.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/economia/salario-minimo-atrasado-hora-alcanza-comprar-medio-kilo-pan_0_1AnR5XirI1.html",
+          "error": "Traceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 169, in _new_conn\n    conn = connection.create_connection(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 96, in create_connection\n    raise err\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 86, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 700, in urlopen\n    httplib_response = self._make_request(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 383, in _make_request\n    self._validate_conn(conn)\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 1015, in _validate_conn\n    conn.connect()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 353, in connect\n    conn = self._new_conn()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 181, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffffa290b3d0>: Failed to establish a new connection: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 612, in send\n    resp = conn.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  [Previous line repeated 2 more times]\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 756, in urlopen\n    retries = retries.increment(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/retry.py\", line 576, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/economia/salario-minimo-atrasado-hora-alcanza-comprar-medio-kilo-pan_0_1AnR5XirI1.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffffa290b3d0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/opc/.local/bin/waybackpy\", line 6, in <module>\n    sys.exit(main())\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/cli.py\", line 426, in main\n    save_api.save()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 210, in save\n    self.get_save_request_headers()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 89, in get_save_request_headers\n    self.response = session.get(self.request_url, headers=self.request_headers)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 557, in get\n    return self.request('GET', url, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 544, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 657, in send\n    r = adapter.send(request, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 689, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/economia/salario-minimo-atrasado-hora-alcanza-comprar-medio-kilo-pan_0_1AnR5XirI1.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffffa290b3d0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        },
+        {
+          "url": "https://www.clarin.com/economia/veranito-cambiario-compra-dolares-ahorristas-cayo-70-faltan-liquidar-us-3200-millones-empresas_0_m36cQYFJ03.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/espectaculos/cheque-portador-emotiva-despedida-luis-brandoni-juan-jose-campanella_0_geR18R5CuL.html",
+          "error": "Traceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 169, in _new_conn\n    conn = connection.create_connection(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 96, in create_connection\n    raise err\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 86, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 700, in urlopen\n    httplib_response = self._make_request(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 383, in _make_request\n    self._validate_conn(conn)\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 1015, in _validate_conn\n    conn.connect()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 353, in connect\n    conn = self._new_conn()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 181, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffffa9e08ac0>: Failed to establish a new connection: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 612, in send\n    resp = conn.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  [Previous line repeated 2 more times]\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 756, in urlopen\n    retries = retries.increment(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/retry.py\", line 576, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/espectaculos/cheque-portador-emotiva-despedida-luis-brandoni-juan-jose-campanella_0_geR18R5CuL.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffffa9e08ac0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/opc/.local/bin/waybackpy\", line 6, in <module>\n    sys.exit(main())\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/cli.py\", line 426, in main\n    save_api.save()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 210, in save\n    self.get_save_request_headers()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 89, in get_save_request_headers\n    self.response = session.get(self.request_url, headers=self.request_headers)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 557, in get\n    return self.request('GET', url, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 544, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 657, in send\n    r = adapter.send(request, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 689, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/espectaculos/cheque-portador-emotiva-despedida-luis-brandoni-juan-jose-campanella_0_geR18R5CuL.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffffa9e08ac0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        },
+        {
+          "url": "https://www.clarin.com/espectaculos/habla-autor-lamento-boliviano-primer-tema-rock-argentino-logro-billon-escuchas-spotify-gracias-enanitos-verdes_0_KWhafgX7Zh.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/espectaculos/murio-luis-puenzo-director-historia-oficial-primera-pelicula-argentina-gano-oscar_0_Wbqat25mA1.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/espectaculos/murio-luis-brandoni-despedida-redes-reconocida-figura-escena-nacional-dia-triste_0_kPxQXqdkFu.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/espectaculos/resto-bien-serie-benjamin-vicuna-daniel-hendler-llega-jueves-flow-aborda-crisis-masculina-50_0_ckkdnINO0v.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/fama/emotiva-despedida-susana-gimenez-luis-brandoni-perdido-irrepetible_0_VxV4fwr4j3.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/fama/jesica-cirio-hablo-embarazo-sorprendio-confesion-planeado_0_a8hNoqNAs2.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/fama/jorge-rial-separo-maria-mar-ramon-luego-anos-relacion-motivos_0_Gjo2N54eo0.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/fama/laura-pausini-freno-show-vivo-critico-publico-vip-pagan-saben-canciones_0_ONrGxogUlr.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/fama/nicolas-trombino-empresario-jesica-cirio-hijo_0_thVS8OCxhR.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/fama/noche-caliente-gran-hermano-generacion-dorada-participante-eliminado-dejo-casa-decision-propia_0_g5ZrztVUG1.html",
+          "error": "Traceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 169, in _new_conn\n    conn = connection.create_connection(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 96, in create_connection\n    raise err\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 86, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 700, in urlopen\n    httplib_response = self._make_request(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 383, in _make_request\n    self._validate_conn(conn)\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 1015, in _validate_conn\n    conn.connect()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 353, in connect\n    conn = self._new_conn()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 181, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffff85c18460>: Failed to establish a new connection: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 612, in send\n    resp = conn.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  [Previous line repeated 2 more times]\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 756, in urlopen\n    retries = retries.increment(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/retry.py\", line 576, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/fama/noche-caliente-gran-hermano-generacion-dorada-participante-eliminado-dejo-casa-decision-propia_0_g5ZrztVUG1.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff85c18460>: Failed to establish a new connection: [Errno 111] Connection refused'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/opc/.local/bin/waybackpy\", line 6, in <module>\n    sys.exit(main())\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/cli.py\", line 426, in main\n    save_api.save()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 210, in save\n    self.get_save_request_headers()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 89, in get_save_request_headers\n    self.response = session.get(self.request_url, headers=self.request_headers)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 557, in get\n    return self.request('GET', url, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 544, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 657, in send\n    r = adapter.send(request, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 689, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/fama/noche-caliente-gran-hermano-generacion-dorada-participante-eliminado-dejo-casa-decision-propia_0_g5ZrztVUG1.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff85c18460>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        },
+        {
+          "url": "https://www.clarin.com/fama/reaccion-tamara-pettinato-condena-hermano-felipe-tranquilidad-conciencia_0_3H17e0TIq6.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/fama/sangro-muchisimo-palabra-ian-lucas-trasladado-urgencia-ambulancia_0_aAeztfzRZI.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/gourmet/colegiales-nueva-parrilla-atreve-entrana-salsa-manteca-mollejas-infalibles-vinos-europeos-copa_0_xv31tGm5vm.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/humor/maitena/maitena-24730",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/humor/maitena/maitena-24737",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/humor/maitena/maitena-24749",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/humor/maitena/maitena-24754",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/humor/maitena/maitena-24760",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/humor/maitena/maitena-24770",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/humor/maitena/maitena-24785",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/humor/maitena/maitena-24776",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/internacional/astronauta-artemis-ii-grabo-video-espectacular-tierra-luna_0_H1EDjteTWp.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/internacional/fiesta-mensaje-anonimo-cura-hablo-caso-inspiro-alguien-saber-netflix_0_txjmyDIx6U.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/internacional/reina-belleza-muere-31-anos-sufrir-infarto-competir_0_H9zetiCjbU.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/mundo/atacante-teotihuacan-admiraba-masacre-columbine-hitler-nexo-une-crimen-escuela-argentina_0_p3a53JMWk0.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/mundo/guerra-vice-estados-unidos-suspendio-viaje-pakistan-iran-confirmo-presencia_0_ZPXorXrV8C.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/mundo/guerra-iran-ahora-trump-dice-tregua-continua-pedido-pakistan_0_Bb0W2p68Vf.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/new-york-times-international-weekly/barcos-fantasma-spoofing-buques-estrecho-ormuz-amenaza-aumentar-caos-zona_0_wNVqNHfhdl.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/new-york-times-international-weekly/guerra-oriente-medio-paralizo-gigante-alimentario-asiatico_0_K9oaNe0V6l.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/new-york-times-international-weekly/hija-kim-jong-conduce-tanque-crecen-versiones-sucesion_0_7Xa9QJ9RHz.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/new-york-times-international-weekly/new-york/proyecto-arco-triunfo-trump-agrada-nadie-propuso_0_m8GoQM7hKU.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/opinion/argentina-vocacion-pacifica-desarrollo-nuclear_0_br9qgot98x.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/opinion/criminalidad-democracia-encrucijada-latinoamericana_0_fX1exAL8L5.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/opinion/dia-conexion_0_LTCyTSSnES.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/opinion/fallo-rappi-pedidos-alegro-kicillof_0_koajuH8nc4.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/opinion/ferias-americanas-libros-pichinchas_0_qU3Hmohsvz.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/opinion/leon-paz_0_7gT9senJTf.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/opinion/milei-pide-paciencia-impacientemente_0_0Y1se0IUBD.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/policiales/gianinna-maradona-declaro-muerte-padre-apunto-medicos-hicieron-manipularnos_0_7LE5qn1uEV.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/politica/argentino-rafael-grossi-defiende-nueva-york-candidatura-jefe-onu-impera-cinismo-frustracion-tristeza-organismo_0_5aatksFMFy.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/politica/corrupcion-afa-maniobra-juez-santiagueno-rechazo-pedido-fiscal-detener-tapia-toviggino-lavado-dinero_0_SoprDBSITI.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/politica/javier-milei-revelo-respuesta-papa-francisco-pidio-perdon-dicho-representante-maligno-tierra_0_OFfFdMaoX9.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/politica/justicia-obliga-gobierno-restituir-planes-sociales-dejado-pagar-cambio-vouchers_0_G8tM6uxJNP.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/politica/mensaje-whatsapp-mayra-mendoza-chicaneando-carli-bianco-grupo-intendentes-tensiono-pelea-kirchnerismo-kicillof_0_0UW4xZFpHw.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/politica/milei-canto-dia-independencia-israel-dijo-argentina-comparten-valores-morales_0_CDMEhxkLxX.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/politica/nueva-encuesta-pregunto-reeleccion-javier-milei-2027-salio-294-vs-607_0_c1P3jdEJdA.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/politica/reves-judicial-alberto-fernandez-quedo-paso-ir-juicio-oral-violencia-genero-fabiola-yanez_0_P4GDGAcNJT.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/politica/victoria-villarruel-ultimo-momento-homenaje-francisco-lujan-nego-sentarse-adorni_0_YnKCEgnH1V.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/recetas/entradas/ensalada-de-arroz-con-atun_7_povhJquEPP.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/recetas/pasteleria/alfajores-de-nuez-sin-tacc_7_pSdDLjwew.html",
+          "error": "Traceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 169, in _new_conn\n    conn = connection.create_connection(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 96, in create_connection\n    raise err\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 86, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 700, in urlopen\n    httplib_response = self._make_request(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 383, in _make_request\n    self._validate_conn(conn)\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 1015, in _validate_conn\n    conn.connect()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 353, in connect\n    conn = self._new_conn()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 181, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffff784faac0>: Failed to establish a new connection: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 612, in send\n    resp = conn.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  [Previous line repeated 2 more times]\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 756, in urlopen\n    retries = retries.increment(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/retry.py\", line 576, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/recetas/pasteleria/alfajores-de-nuez-sin-tacc_7_pSdDLjwew.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff784faac0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/opc/.local/bin/waybackpy\", line 6, in <module>\n    sys.exit(main())\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/cli.py\", line 426, in main\n    save_api.save()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 210, in save\n    self.get_save_request_headers()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 89, in get_save_request_headers\n    self.response = session.get(self.request_url, headers=self.request_headers)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 557, in get\n    return self.request('GET', url, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 544, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 657, in send\n    r = adapter.send(request, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 689, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/recetas/pasteleria/alfajores-de-nuez-sin-tacc_7_pSdDLjwew.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff784faac0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        },
+        {
+          "url": "https://www.clarin.com/recetas/platos-principales/pizza-polenta-vegetales-grillados_7_j3R81bQnM.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/relaciones/swingers-mitad-vida-viaje-ida-podes-parar_0_Eu8Urh2Cbm.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/rural/agrobusiness-supera-vez-industria-manufacturera-brasilena_0_22aeGdUt6l.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/recetas/platos-principales/risotto-cebada-perlada_7_MjYOXZVN.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/rural/girasol-cultivo-crecio-mayor-potencial_0_m9o5IQ9NRq.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/rural/desastre-5000-hectareas-agua-santa-fe-trabaja-contrarreloj-salvar-animales_0_c6XFsPLnFD.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/rural/ambicioso-proyecto-grupo-productores-busca-instalar-primera-planta-bioetanol-buenos-aires-inversion-us-100-millones_0_rYxMWC1W03.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/rural/nuevo-estandar-residualidad-selectividad-control-preemergente-cruciferas-trigo-cebada_0_yRWAirbrZn.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/rural/inversion-entra-casillero_0_2AB0I5U7qf.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/rural/perdidas-millonarias-estiman-millon-hectareas-inundadas-norte-santa-fe_0_qFrlivhBxs.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/rural/transformar-boom-ganadero-crecimiento-sostenido_0_FBJL6oDZtl.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/rural/zona-semiarida-rodeo-grande-pais-raza-emblematica-sigue-perfeccionando-calidad-carne_0_EivQ4XWk6A.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/servicios/matrimonios-herencia-casos-viudo-puede-quedarse-afuera-sucesion_0_FQVrrnUQxO.html",
+          "error": "Traceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 169, in _new_conn\n    conn = connection.create_connection(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 96, in create_connection\n    raise err\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 86, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 700, in urlopen\n    httplib_response = self._make_request(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 383, in _make_request\n    self._validate_conn(conn)\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 1015, in _validate_conn\n    conn.connect()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 353, in connect\n    conn = self._new_conn()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 181, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffffa5f6c460>: Failed to establish a new connection: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 612, in send\n    resp = conn.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  [Previous line repeated 2 more times]\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 756, in urlopen\n    retries = retries.increment(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/retry.py\", line 576, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/servicios/matrimonios-herencia-casos-viudo-puede-quedarse-afuera-sucesion_0_FQVrrnUQxO.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffffa5f6c460>: Failed to establish a new connection: [Errno 111] Connection refused'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/opc/.local/bin/waybackpy\", line 6, in <module>\n    sys.exit(main())\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/cli.py\", line 426, in main\n    save_api.save()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 210, in save\n    self.get_save_request_headers()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 89, in get_save_request_headers\n    self.response = session.get(self.request_url, headers=self.request_headers)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 557, in get\n    return self.request('GET', url, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 544, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 657, in send\n    r = adapter.send(request, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 689, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/servicios/matrimonios-herencia-casos-viudo-puede-quedarse-afuera-sucesion_0_FQVrrnUQxO.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffffa5f6c460>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        },
+        {
+          "url": "https://www.clarin.com/servicios/ofrecen-400-becas-gratuitas-aprender-programar-reconocida-institucion-tecnologica-anotarse_0_IG5qMVZD8X.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/sociedad/aumento-inesperado-demanda-vacuna-parecia-condenada-olvido-curiosa-causa_0_plrx4ZURyP.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/sociedad/cafe-leche-pan-manteca-mismo_0_SbfsP5CeU4.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/sociedad/gobierno-dio-baja-prepagas-lista-nuevas-empresas-rechazadas_0_GiexSp1JiY.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/sociedad/cordoba-trataron-robarle-influencer-viajaba-moto-quedo-registrado-camara_0_WcXPUV6y9v.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/sociedad/profesor-ingles-brasileno-aparecio-muerto-nn-hospital-interrogantes-caso_0_dbuz7ZRYni.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/tecnologia/ingresos-universales-trabajo-opcional-elon-musk-revelo-plan-crisis-laboral-traera-ia_0_VXW8p2rkP8.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/viajes/pueblos-rurales-bonitos-europa-alemania-irlanda-republica-checa_0_VK3GTzWDSI.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/videos/creditos-sospecha-banco-nacion-denuncian-favoritismo-funcionarios_3_E9mOx2Uo1L.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/videos/hace-dulce-leche-argentino_3_jGWXdljrnm.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/videos/ia-matando-juniors_3_m8KeJRnh6X.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/videos/inflacion-volvio-subir-estanca-economia_3_XdyzE5N9Ci.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/videos/lobo-wall-street-real-verdad-jordan-belfort_3_EPpOeY8dBM.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/videos/juicio-muerte-maradona-fiscal-apunto-atencion-improvisada-burlando-hablo-asesinato_3_lJuINao6YI.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/videos/profugo-divide-argentina-chile-sergio-galvarino-apablaza_3_Iexop4aTSY.html",
+          "error": "Traceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 169, in _new_conn\n    conn = connection.create_connection(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 96, in create_connection\n    raise err\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 86, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 700, in urlopen\n    httplib_response = self._make_request(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 383, in _make_request\n    self._validate_conn(conn)\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 1015, in _validate_conn\n    conn.connect()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 353, in connect\n    conn = self._new_conn()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 181, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffff9acfaaf0>: Failed to establish a new connection: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 612, in send\n    resp = conn.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  [Previous line repeated 2 more times]\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 756, in urlopen\n    retries = retries.increment(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/retry.py\", line 576, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/videos/profugo-divide-argentina-chile-sergio-galvarino-apablaza_3_Iexop4aTSY.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff9acfaaf0>: Failed to establish a new connection: [Errno 111] Connection refused'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/opc/.local/bin/waybackpy\", line 6, in <module>\n    sys.exit(main())\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/cli.py\", line 426, in main\n    save_api.save()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 210, in save\n    self.get_save_request_headers()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 89, in get_save_request_headers\n    self.response = session.get(self.request_url, headers=self.request_headers)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 557, in get\n    return self.request('GET', url, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 544, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 657, in send\n    r = adapter.send(request, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 689, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/videos/profugo-divide-argentina-chile-sergio-galvarino-apablaza_3_Iexop4aTSY.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff9acfaaf0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        },
+        {
+          "url": "https://www.clarin.com/videos/propiedades-viajes-vocero-silencio_3_2XW1l5MZOM.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/videos/raperos-trenes-subtes-sobreviven-cantando_3_tbbydCI68T.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/zonales/alfajor-200-kilos-celebrar-festival-gratuito-pasteleros-top-escobar_0_o7qeoe3PBJ.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/zonales/alimentaba-basura-conejos-terneros-cabras-detenido-rescataron-200-animales_0_OFwuxQmcwl.html",
+          "error": "Traceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 169, in _new_conn\n    conn = connection.create_connection(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 96, in create_connection\n    raise err\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/connection.py\", line 86, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 700, in urlopen\n    httplib_response = self._make_request(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 383, in _make_request\n    self._validate_conn(conn)\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 1015, in _validate_conn\n    conn.connect()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 353, in connect\n    conn = self._new_conn()\n  File \"/usr/lib/python3.9/site-packages/urllib3/connection.py\", line 181, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffff9d04a460>: Failed to establish a new connection: [Errno 111] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 612, in send\n    resp = conn.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 784, in urlopen\n    return self.urlopen(\n  [Previous line repeated 2 more times]\n  File \"/usr/lib/python3.9/site-packages/urllib3/connectionpool.py\", line 756, in urlopen\n    retries = retries.increment(\n  File \"/usr/lib/python3.9/site-packages/urllib3/util/retry.py\", line 576, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/zonales/alimentaba-basura-conejos-terneros-cabras-detenido-rescataron-200-animales_0_OFwuxQmcwl.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff9d04a460>: Failed to establish a new connection: [Errno 111] Connection refused'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/opc/.local/bin/waybackpy\", line 6, in <module>\n    sys.exit(main())\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"/home/opc/.local/lib/python3.9/site-packages/click/core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/cli.py\", line 426, in main\n    save_api.save()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 210, in save\n    self.get_save_request_headers()\n  File \"/home/opc/.local/lib/python3.9/site-packages/waybackpy/save_api.py\", line 89, in get_save_request_headers\n    self.response = session.get(self.request_url, headers=self.request_headers)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 557, in get\n    return self.request('GET', url, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 544, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/sessions.py\", line 657, in send\n    r = adapter.send(request, **kwargs)\n  File \"/usr/lib/python3.9/site-packages/requests/adapters.py\", line 689, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /save/https://www.clarin.com/zonales/alimentaba-basura-conejos-terneros-cabras-detenido-rescataron-200-animales_0_OFwuxQmcwl.html (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff9d04a460>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        },
+        {
+          "url": "https://www.clarin.com/zonales/cacho-primer-influencer-argentino-masivo-creado-ia_0_P5rpeasv5j.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/zonales/coleccion-privada-mariposas-grande-america-gba_0_a1QD0patSa.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/zonales/fotografo-argentino-gano-prestigioso-concurso-europa-retrato-argentina-milei_0_RLAFMQeLHN.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/zonales/gato-elegante-arturo-cumplio-22-anos-festejo-grande_0_7Z2k7JTnaV.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/zonales/homenaje-leon-gieco-alin-demirdjian-111-anos-genocidio-armenio_0_JAFC3aBrHa.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/zonales/seguiran-julio-demoras-ramal-tren-roca_0_jf6ZFNvPL1.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/deportes/hoy-mata-mata-torneo-apertura-river-clasifico-grandes-quedando-afuera-octavos_0_JVUfr0DR1w.html",
+          "error": "TIMEOUT"
+        },
+        {
+          "url": "https://www.clarin.com/deportes/franco-colapinto-road-show-confirmaron-horarios-ver-piloto-argentino-formula-1-calles-palermo_0_0Sc0jDIXK1.html",
+          "error": "TIMEOUT"
+        }
+      ]
+    }
+  ]
+}
